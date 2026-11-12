@@ -3,11 +3,13 @@ import urllib.request
 # СПИСОК исходных плейлистов
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV",
+     https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8
     # Добавьте другие URL-ы сюда
 ]
 
 # Группы, которые нужно оставить
 TARGET_GROUPS = [
+    'group-title="🇷🇺Федеральные"',
     'group-title="Квант-Телеком (VPN 🇷🇺)"',
     'group-title="Turon Media (VPN)"',
     'group-title="Uplink (VPN)"',
