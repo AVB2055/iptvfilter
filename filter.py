@@ -1,15 +1,13 @@
 import urllib.request
 
-# СПИСОК исходных плейлистов (можно добавлять сколько угодно)
+# СПИСОК исходных плейлистов
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV",
-    "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8",
-     # Добавляйте новые URL-ы сюда, каждый в кавычках и через запятую
+    # Добавьте другие URL-ы сюда
 ]
 
-# Группы, которые нужно оставить (работают для ВСЕХ источников)
+# Группы, которые нужно оставить
 TARGET_GROUPS = [
-    'group-title="🇷🇺Федеральные"',
     'group-title="Квант-Телеком (VPN 🇷🇺)"',
     'group-title="Turon Media (VPN)"',
     'group-title="Uplink (VPN)"',
@@ -17,17 +15,29 @@ TARGET_GROUPS = [
     'group-title="Internet42 LLC"'
 ]
 
-# Черный список: слова для исключения каналов (работает для ВСЕХ источников)
+# 1. Глобальные исключения по ключевым словам (удаляют каналы во ВСЕХ группах)
 EXCLUDE_KEYWORDS = [
-    "Наше новое кино",
     "Shop",
-    "18+"
+    "18+",
+    "магазин"
 ]
 
-# Начинаем с заголовка M3U
+# 2. Точечные исключения по названию (удаляют канал во ВСЕХ группах)
+EXCLUDE_SPECIFIC = [
+    "Тестовый канал"
+]
+
+# 3. ИСКЛЮЧЕНИЯ ПО ГРУППАМ: удаляют канал ТОЛЬКО в указанной группе
+# Формат: ('название группы', 'название канала')
+# Название группы должно точно совпадать с тем, что внутри group-title="..."
+EXCLUDE_BY_GROUP = [
+    ('Uplink (VPN)', 'Наше новое кино'),
+    ('Turon Media (VPN)', 'Первый канал HD'),
+    # Добавьте свои пары ниже
+]
+
 result = ["#EXTM3U"]
 
-# Обрабатываем каждый исходный файл по очереди
 for url in SOURCE_URLS:
     print(f"Обработка: {url}")
     
@@ -37,10 +47,11 @@ for url in SOURCE_URLS:
             text = response.read().decode('utf-8')
     except Exception as e:
         print(f"Ошибка скачивания {url}: {e}")
-        continue  # Пропускаем этот URL и переходим к следующему
+        continue
     
     lines = text.split('\n')
     current_block = []
+    current_group = ""
     is_target = False
     
     for line in lines:
@@ -51,18 +62,47 @@ for url in SOURCE_URLS:
         if clean.startswith('#EXTINF'):
             current_block = [clean]
             is_target = any(group in clean for group in TARGET_GROUPS)
+            
+            # Запоминаем название группы текущего канала
+            current_group = ""
+            if 'group-title="' in clean:
+                start = clean.find('group-title="') + len('group-title="')
+                end = clean.find('"', start)
+                current_group = clean[start:end]
+                
         elif is_target:
             current_block.append(clean)
             if clean.startswith('http://') or clean.startswith('https://'):
                 block_text = " ".join(current_block).lower()
+                
+                # Проверка 1: глобальные ключевые слова
                 exclude_keywords_lower = [kw.lower() for kw in EXCLUDE_KEYWORDS]
+                if any(kw in block_text for kw in exclude_keywords_lower):
+                    is_target = False
+                    continue
                 
-                if not any(kw in block_text for kw in exclude_keywords_lower):
-                    result.extend(current_block)
+                # Проверка 2: глобальные точные названия
+                channel_name = current_block[0].split(',')[-1].strip()
+                exclude_specific_lower = [name.lower() for name in EXCLUDE_SPECIFIC]
+                if channel_name.lower() in exclude_specific_lower:
+                    is_target = False
+                    continue
                 
+                # Проверка 3: точечные исключения по группе
+                should_exclude = False
+                for group_name, channel_to_exclude in EXCLUDE_BY_GROUP:
+                    if current_group == group_name and channel_name.lower() == channel_to_exclude.lower():
+                        should_exclude = True
+                        break
+                
+                if should_exclude:
+                    is_target = False
+                    continue
+                
+                # Если все проверки пройдены — добавляем канал
+                result.extend(current_block)
                 is_target = False
 
-# Сохраняем объединенный результат
 with open('iptv.m3u', 'w', encoding='utf-8') as f:
     f.write('\n'.join(result))
 
