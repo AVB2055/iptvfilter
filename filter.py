@@ -9,7 +9,6 @@ SOURCE_URLS = [
 
 # Группы, которые нужно оставить
 TARGET_GROUPS = [
-    'group-title="🇷🇺Федеральные"',
     'group-title="Квант-Телеком (VPN 🇷🇺)"',
     'group-title="Turon Media (VPN)"',
     'group-title="Uplink (VPN)"',
@@ -33,7 +32,6 @@ EXCLUDE_SPECIFIC = [
 # Формат: ('название группы', 'название канала')
 # Название группы должно точно совпадать с тем, что внутри group-title="..."
 EXCLUDE_BY_GROUP = [
-    ('Uplink (VPN)', 'Наше новое кино'),
     ('Turon Media (VPN)', 'Первый канал HD'),
     # Добавьте свои пары ниже
 ]
