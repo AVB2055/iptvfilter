@@ -3,13 +3,13 @@ import urllib.request
 # СПИСОК исходных плейлистов (можно добавлять сколько угодно)
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV",
-    "https://raw.githubusercontent.com/другой-автор/другой-репо/main/playlist.m3u",
-    "https://example.com/еще-один-плейлист.m3u"
-    # Добавляйте новые URL-ы сюда, каждый в кавычках и через запятую
+    "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8",
+     # Добавляйте новые URL-ы сюда, каждый в кавычках и через запятую
 ]
 
 # Группы, которые нужно оставить (работают для ВСЕХ источников)
 TARGET_GROUPS = [
+    'group-title="🇷🇺Федеральные"',
     'group-title="Квант-Телеком (VPN 🇷🇺)"',
     'group-title="Turon Media (VPN)"',
     'group-title="Uplink (VPN)"',
