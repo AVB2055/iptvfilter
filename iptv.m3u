@@ -1,0 +1,865 @@
+#EXTM3U
+#EXTINF:-1 group-title="Internet42 LLC", Россия 24
+http://176.118.197.101/Rossiya24/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", ТНТ
+http://176.118.197.101/THT/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", НТВ
+http://176.118.197.101/NTV/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", ТНТ4
+http://176.118.197.101/TNT4/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Bollywood HD
+http://176.118.197.101/Bollywood_HD/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Cinema
+http://176.118.197.101/Cinema/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Еврокино
+http://176.118.197.101/Evrokino/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Иллюзион+
+http://176.118.197.101/Illuzion+/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Кинокомедия
+http://176.118.197.101/Kinokomediya/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Киномикс
+http://176.118.197.101/Kinomix/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", НСТ
+http://176.118.197.101/HCT/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Родное кино
+http://176.118.197.101/RodnoeKino/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Кинопоказ
+http://176.118.197.101/Kinopokaz/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Киносерия
+http://176.118.197.101/Kinoseria/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Любимое кино
+http://176.118.197.101/LubimoeKino/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Мир сериала
+http://176.118.197.101/MirSeriala/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", 2x2
+http://176.118.197.101/2x2/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", СТС
+http://176.118.197.101/CTC/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Че
+http://176.118.197.101/Che/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Ностальгия
+http://176.118.197.101/Nostalgiya/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", РБК
+http://176.118.197.101/RBK/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Ретро
+http://176.118.197.101/Retro/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Театр
+http://176.118.197.101/Teatr/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Телекафе
+http://176.118.197.101/Telekafe/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", 1HD
+http://176.118.197.101/1HD/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", Cartoon Network
+http://176.118.197.101/Cartoon_Network/index.m3u8
+#EXTINF:-1 group-title="Internet42 LLC", KHL
+http://176.118.197.101/KHL/index.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Первый канал
+https://flussonic.mkpnet.ru/tv-4f9598ab5f91dca4/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Россия 1
+https://flussonic.mkpnet.ru/tv-d696bdfd6a0e4373/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Россия 24
+https://flussonic.mkpnet.ru/tv-6c5b49dbcf811fc6/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Россия К
+https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Рен ТВ
+https://flussonic.mkpnet.ru/tv-44dfec2799c5738e/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",НТВ
+https://flussonic.mkpnet.ru/tv-1bc5d712ea5ace74/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",ТНТ4
+https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Viasat Explore
+https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Viasat History
+https://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Viasat Nature
+https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Большая Азия
+https://flussonic.mkpnet.ru/tv-d5d21f78cdf69c47/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Загородная жизнь
+https://flussonic.mkpnet.ru/tv-a651b413f5cb4c44/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Моя Планета
+https://flussonic.mkpnet.ru/tv-6febc5aecf84848d/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",.sci-fi
+https://flussonic.mkpnet.ru/tv-e80cc885d4ae14d1/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",2x2
+https://flussonic.mkpnet.ru/tv-17540fb90079a865/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Amedia 2
+https://flussonic.mkpnet.ru/tv-cad19a32f4a82824/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Amedia Hit
+https://flussonic.mkpnet.ru/tv-8f04998179283ee5/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",TV1000
+https://flussonic.mkpnet.ru/tv-aab84159a39fbe84/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",TV1000 Русское кино
+https://flussonic.mkpnet.ru/tv-7510472b0133abb2/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",TV1000 Action
+https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Vip Comedy
+https://flussonic.mkpnet.ru/tv-c385ec3bab3a3605/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",VIP Megahit HD
+https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Vip Premiere
+https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Домашний
+https://flussonic.mkpnet.ru/tv-b515ccce67923f8a/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Жара
+https://flussonic.mkpnet.ru/tv-3cdc33d3606ba23f/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Живи Активно
+https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Здоровое ТВ
+https://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Киносат
+https://flussonic.mkpnet.ru/tv-e055808223a74709/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Киносвидание
+https://flussonic.mkpnet.ru/tv-be2ba983babad866/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",КиноХит
+https://flussonic.mkpnet.ru/tv-513b9c22f4277475/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Пятница
+https://flussonic.mkpnet.ru/tv-7d5e5db805057e8f/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Русский бестселлер
+https://flussonic.mkpnet.ru/tv-ccf8c891702508a7/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Русский детектив
+https://flussonic.mkpnet.ru/tv-2997fed720614567/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Русский роман
+https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Красная линия
+https://flussonic.mkpnet.ru/tv-3c6edc849aea7c07/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",ТВ3
+https://flussonic.mkpnet.ru/tv-b9ddf7deb3d25757/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Авто 24
+https://flussonic.mkpnet.ru/tv-a5fa84789fc4add5/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",RTД
+https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Пятый канал
+https://flussonic.mkpnet.ru/tv-a5ff8c7a86c8b951/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",8 Канал
+https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Лад
+https://flussonic.mkpnet.ru/tv-7a5f996197077375/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",ЛДПР ТВ
+https://flussonic.mkpnet.ru/tv-0a158c4925e60ceb/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",МИР 24
+https://flussonic.mkpnet.ru/tv-d76fe26181666459/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Мужской
+https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Наша Тема
+https://flussonic.mkpnet.ru/tv-c922a9201f5073f8/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",ОТР
+https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Продвижение
+https://flussonic.mkpnet.ru/tv-86cc4bfff941b275/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",СТС
+https://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",СТС Love
+https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Суббота
+https://flussonic.mkpnet.ru/tv-2e0a7cc949958b60/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",ТВЦ
+https://flussonic.mkpnet.ru/tv-b76bb5b80615eed6/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Точка Отрыва
+https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Точка ТВ
+https://flussonic.mkpnet.ru/tv-297099e2d5179304/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Успех
+https://flussonic.mkpnet.ru/tv-324fe9acc597fbc1/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Че
+https://flussonic.mkpnet.ru/tv-cf5a26a180f402ef/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Ю
+https://flussonic.mkpnet.ru/tv-3b21847ece4b1c19/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Солнце
+https://flussonic.mkpnet.ru/tv-ac43800065b9b1b7/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Мульт
+https://flussonic.mkpnet.ru/tv-c8b065a591077c26/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Бобёр
+https://flussonic.mkpnet.ru/tv-319cadb3fff5fb3e/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Gulli Girl
+https://flussonic.mkpnet.ru/tv-d66fcf59f2f4c966/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Карусель
+https://flussonic.mkpnet.ru/tv-132f51b35b47b897/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Мультиландия
+https://flussonic.mkpnet.ru/tv-89530153f25733fe/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",СТС Kids
+https://flussonic.mkpnet.ru/tv-4af112c31b77e2a8/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",TiJi
+https://flussonic.mkpnet.ru/tv-3848dd8604a262e0/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Малыш
+https://flussonic.mkpnet.ru/tv-66968914d630446e/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Шансон ТВ
+https://flussonic.mkpnet.ru/tv-181e3f7698288892/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",RU.TV
+https://flussonic.mkpnet.ru/tv-64b2c4ff13365817/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",Bridge TV
+https://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",ТНТ Music
+https://flussonic.mkpnet.ru/tv-6683d71aa818d0a0/video.m3u8
+#EXTINF:-1 group-title="Оргтехсервис (VPN)",МузТВ
+https://flussonic.mkpnet.ru/tv-4a4cb3e0aac082c9/video.m3u8
+#EXTINF:-1 group-title="Uplink (VPN)",ТНТ4
+https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Россия 24
+https://fs.uplink.kz/rossia_24/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Россия К
+https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",РТР Планета
+https://fs.uplink.kz/rtr_planeta/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",НТВ-Мир
+https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Рен ТВ international
+https://fs.uplink.kz/ren/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",365 дней
+https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Техно 24
+https://fs.uplink.kz/tehno_24/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Моя планета
+https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat Explore
+https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat History
+https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat Nature
+https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",National Geographic
+https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Nat Geo Wild
+https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",История
+https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Big planet
+https://fs.uplink.kz/big_planet/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Поехали!
+https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Amedia Hit HD
+https://fs.uplink.kz/amedia_hit_hd/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Amedia Premium HD
+https://fs.uplink.kz/amedia_premium_hd/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Amedia 1
+https://fs.uplink.kz/amedia_1/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Авто 24
+https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Индия
+https://fs.uplink.kz/india/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Дом кино
+https://fs.uplink.kz/dom_kino/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Дом кино премиум
+https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Домашний
+https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Еврокино
+https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Кинохит
+https://fs.uplink.kz/kinohit/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Киноужас
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Индийское кино
+https://fs.uplink.kz/indiyskoe_kino/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Кинокомедия
+https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Киномикс
+https://fs.uplink.kz/kinomix/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Кинопремьера HD
+https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Родное кино
+https://fs.uplink.kz/rodnoe_kino/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Киносемья
+https://fs.uplink.kz/kinosemya/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Киносерия
+https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Киносвидание
+https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Мужское кино
+https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",TV1000 Русское кино
+https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",TV1000 Action
+https://fs.uplink.kz/viju_tv1000_action/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",TV1000
+https://fs.uplink.kz/viju_tv1000/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Москва 24
+https://fs.uplink.kz/moskva24/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",КВН ТВ
+https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Мир
+https://fs.uplink.kz/mir/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Мосфильм. Золотая коллекция
+https://fs.uplink.kz/mosfilm/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",ТВЦ
+https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Ностальгия
+https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Новое телевидение
+https://fs.uplink.kz/novoe_tv/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Оружие
+https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Перец
+https://fs.uplink.kz/perec/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Победа
+https://fs.uplink.kz/pobeda/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Русский иллюзион
+https://fs.uplink.kz/russkiy_illusion/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",СТС
+https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",СТС Love
+https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Телекафе
+https://fs.uplink.kz/telecafe/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Точка отрыва
+https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Дорама
+https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Start Air
+https://fs.uplink.kz/start_air/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Start World
+https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",TV XXI
+https://fs.uplink.kz/tvxxi/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Ю
+https://fs.uplink.kz/u/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Время
+https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Жара
+https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Живи
+https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Сарафан
+https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Зоопарк
+https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Звезда
+https://fs.uplink.kz/zvezda/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Astana TV
+https://fs.uplink.kz/astana/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",КТК
+https://fs.uplink.kz/ktk/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",НТК
+https://fs.uplink.kz/ntk/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Atameken Business
+https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",24 KZ
+https://fs.uplink.kz/24KZ/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Пятый канал
+https://fs.uplink.kz/5_kanal/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",7 канал (Казахстан)
+https://fs.uplink.kz/7_kanal/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Abai TV
+https://fs.uplink.kz/abai_tv/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Almaty TV
+https://fs.uplink.kz/almaty/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Habar
+https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Qazaqstan KZ
+https://fs.uplink.kz/qazaqstan/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",ТНВ-Планета
+https://fs.uplink.kz/tnv/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Turan TV
+https://fs.uplink.kz/turan_tv/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Balapan
+https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Bridge TV Classic
+https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",МузТВ
+https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",RU.TV
+https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Шансон ТВ
+https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Европа плюс ТВ
+https://fs.uplink.kz/europa_plus/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",В гостях у сказки
+https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Baby time
+https://fs.uplink.kz/baby_time/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Лапки Live
+https://fs.uplink.kz/lapki_live/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",СТС Kids
+https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Da Vinci
+https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Карусель
+https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",О!
+https://fs.uplink.kz/o/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Бобёр
+https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Мульт
+https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Uplink (VPN)",Мультиландия
+https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="Turon Media (VPN)",Первый канал HD
+https://stream3.cinerama.uz/1214/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Первый канал
+https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",НТВ
+https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Россия К
+https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Россия 24
+https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Россия 1
+https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Техно 24
+https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Приключения
+https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Первый Космический
+https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Охотник и Рыболов HD
+https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Дикая охота HD
+https://stream8.cinerama.uz/1412/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Дикий
+https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Охота и Рыбалка
+https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Наша Сибирь
+https://stream8.cinerama.uz/1424/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Наука
+https://stream8.cinerama.uz/1248/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Моя Планета
+https://stream8.cinerama.uz/1247/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Живая Природа HD
+https://stream8.cinerama.uz/1411/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Глазами Туриста
+https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Вопросы и Ответы
+https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",В Мире Животных
+https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Viasat Nature
+https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Viasat History
+https://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Viasat Explore
+https://stream8.cinerama.uz/1045/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",NAT GEO WILD
+https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Animal Planet
+https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",National Geographic
+https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Discovery Science
+https://stream8.cinerama.uz/1040/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Insight TV HD
+https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Точка РФ
+https://stream8.cinerama.uz/1222/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",История
+https://stream8.cinerama.uz/1266/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Живая Планета
+https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Усадьба
+https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Точка Отрыва
+https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",ТВЦ
+https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Сарафан
+https://stream8.cinerama.uz/1249/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Ретро
+https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Мир 24
+https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Мир
+https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Кухня ТВ
+https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Кинопоказ
+https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Родное Кино
+https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Кинохит
+https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Киносерия
+https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Киносемья
+https://stream8.cinerama.uz/1234/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Киносвидание
+https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Мужское кино
+https://stream8.cinerama.uz/1237/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Кинопремьера
+https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Киномикс
+https://stream8.cinerama.uz/1233/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Кинокомедия
+https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Индийское Кино
+https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Капитан Фантастика HD
+https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",VIP Serial
+https://stream8.cinerama.uz/1224/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",VIP Comedy
+https://stream8.cinerama.uz/1061/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",VIP Premiere
+https://stream8.cinerama.uz/1056/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",TV1000
+https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",TV1000 Русское Кино
+https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",TV1000 ACTION HD
+https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Bollywood
+https://stream8.cinerama.uz/1444/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Hollywood
+https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Зоопарк
+https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Здоровое ТВ
+https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Звезда
+https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Живи Активно HD
+https://stream8.cinerama.uz/1405/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Живи
+https://stream8.cinerama.uz/1419/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Драйв
+https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Дорама
+https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Домашние Животные
+https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Дом Кино
+https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Доктор
+https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Арсенал HD
+https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Авто Плюс
+https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Авто 24
+https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Казахстан 24
+https://stream8.cinerama.uz/1408/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Zor TV HD
+https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Yoshlar
+https://stream8.cinerama.uz/1002/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Uzbekiston
+https://stream8.cinerama.uz/1001/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Turan TV
+https://stream8.cinerama.uz/1261/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",TRT Muzik
+https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",TRT Haber
+https://stream8.cinerama.uz/1257/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",TRT Avaz
+https://stream8.cinerama.uz/1258/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Toshkent
+https://stream8.cinerama.uz/1003/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Taraqqiyot TV UZ
+https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Sevimili UZ
+https://stream8.cinerama.uz/1017/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Renessans TV UZ
+https://stream8.cinerama.uz/1221/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Qasaqstan
+https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Ozbekiston Tarixi HD UZ
+https://stream8.cinerama.uz/1209/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Uzbekistan 24
+https://stream8.cinerama.uz/1011/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Nurafshon TV UZ
+https://stream8.cinerama.uz/1220/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Ntv UZ
+https://stream8.cinerama.uz/1284/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Navo
+https://stream8.cinerama.uz/1008/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",NHK World Japan
+https://stream8.cinerama.uz/1449/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Myday TV
+https://stream8.cinerama.uz/1265/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",My5 UZ
+https://stream8.cinerama.uz/1217/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Milliy TV UZ
+https://stream8.cinerama.uz/1014/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Mening Yurtim FHD UZ
+https://stream8.cinerama.uz/1012/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Mahalla
+https://stream8.cinerama.uz/1013/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Madaniyat va marifat
+https://stream8.cinerama.uz/1005/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Lux TV
+https://stream8.cinerama.uz/1210/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Kinoteatr
+https://stream8.cinerama.uz/1009/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",KBS WORLD
+https://stream8.cinerama.uz/1448/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Istiqlol TV
+https://stream8.cinerama.uz/1283/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",France 24
+https://stream8.cinerama.uz/1241/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Fox News
+https://stream8.cinerama.uz/1252/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Foreign Languages UZ
+https://stream8.cinerama.uz/1010/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Fashion TV
+https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Euronews
+https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",English Club
+https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Dunyo bo`ylab UZ
+https://stream8.cinerama.uz/1006/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",CNN
+https://stream8.cinerama.uz/1259/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Cinema
+https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",CGTN
+https://stream8.cinerama.uz/1253/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Bolajon
+https://stream8.cinerama.uz/1007/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Bloomberg
+https://stream8.cinerama.uz/1255/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Biz Cinema UZ
+https://stream8.cinerama.uz/1213/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",BizTV HD UZ
+https://stream8.cinerama.uz/1211/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",BBC WORLD
+https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Aqlvoy TV UZ
+https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",8 Канал
+https://stream8.cinerama.uz/1262/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",365 Дней HD
+https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Duck TV
+https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Рыжий
+https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Мама
+https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Уникум
+https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Карусель
+https://stream8.cinerama.uz/1034/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Da Vinci
+https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Мультиландия
+https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Смайл ТВ
+https://stream8.cinerama.uz/1425/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Мульт
+https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",В Гостях У Сказки
+https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Nick Jr
+https://stream8.cinerama.uz/1501/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Nickelodeon
+https://stream8.cinerama.uz/1500/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Tiji
+https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Gulli Girl
+https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Музыка Первого
+https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Ля-Минор
+https://stream8.cinerama.uz/1238/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",СТВ  Музыка HD
+https://stream8.cinerama.uz/1018/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",ТНТ Music
+https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",МузТВ
+https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Муз ТВ UZ
+https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",RU.TV
+https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Globus Music
+https://stream8.cinerama.uz/1245/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Biz Music HD UZ
+https://stream8.cinerama.uz/1212/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",1HD
+https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ПЕРВЫЙ КАНАЛ
+http://31.210.208.171:8080/1kanal/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РЕН ТВ
+http://31.210.208.171:8080/ren/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РОССИЯ 1
+http://31.210.208.171:8080/russia1/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РОССИЯ 24
+http://31.210.208.171:8080/russia24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НТВ
+http://31.210.208.171:8080/ntv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТНТ
+http://31.210.208.171:8080/tnt/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТНТ4
+http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Россия К
+http://31.210.208.171:8080/russiak/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ИСТОРИЯ
+http://31.210.208.171:8080/istoriya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Big Planet
+http://31.210.208.171:8080/big_planet/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Моя планета
+http://31.210.208.171:8080/moya_planeta/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Viasat Explore
+http://31.210.208.171:8080/viju_explore/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Viasat History
+http://31.210.208.171:8080/viju_history/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Загородная жизнь
+http://31.210.208.171:8080/zagorodnaya_zhizn/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Живая планета
+http://31.210.208.171:8080/zhivaya_planeta/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",2x2
+http://31.210.208.171:8080/2x2/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пятый канал
+http://31.210.208.171:8080/5kanal/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",FAN
+http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",RT
+http://31.210.208.171:8080/rt/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",SHOT TV
+http://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",TV XXI
+http://31.210.208.171:8080/xxi/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОМАШНИЙ
+http://31.210.208.171:8080/home/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОРАМА
+http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЕВРОКИНО
+http://31.210.208.171:8080/evrokino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЖАРА
+http://31.210.208.171:8080/jara/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЖИВИ
+http://31.210.208.171:8080/jivi/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЗВЕЗДА
+http://31.210.208.171:8080/zvezda/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНО ТВ
+http://31.210.208.171:8080/kinotv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОМИКС
+http://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОСЕРИЯ
+http://31.210.208.171:8080/kinoseriya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОУЖАС
+http://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МИР
+http://31.210.208.171:8080/mir/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МИР 24 HD
+http://31.210.208.171:8080/mir24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МОСКВА 24
+http://31.210.208.171:8080/moskva_24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НОСТАЛЬГИЯ
+http://31.210.208.171:8080/nostalgiya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НСТ
+http://31.210.208.171:8080/nst/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",о2тв
+http://31.210.208.171:8080/o2/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ОТР
+http://31.210.208.171:8080/otr/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РБК
+http://31.210.208.171:8080/rbk/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",САРАФАН
+http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Cinema
+http://31.210.208.171:8080/cinema/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Дом кино
+http://31.210.208.171:8080/dom_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Индия
+http://31.210.208.171:8080/indiya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинеко HD
+http://31.210.208.171:8080/kineko/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киносемья
+http://31.210.208.171:8080/kinofamily/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинохит
+http://31.210.208.171:8080/kinohit/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киноман
+http://31.210.208.171:8080/kinoman/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинокомедия
+http://31.210.208.171:8080/kinokomedia/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киносвидание
+http://31.210.208.171:8080/kinosvidanie/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Комедия
+http://31.210.208.171:8080/komedia/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Любимое кино
+http://31.210.208.171:8080/lubimoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мосфильм. Золотая коллекция
+http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мужское кино
+http://31.210.208.171:8080/muzhskoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Родное кино
+http://31.210.208.171:8080/rodnoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Русский роман
+http://31.210.208.171:8080/russian_roman/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Красная линия
+http://31.210.208.171:8080/krasnaya_liniya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СПАС
+http://31.210.208.171:8080/spas/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СТС
+http://31.210.208.171:8080/sts/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",360 HD
+http://31.210.208.171:8080/360_HD/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Авто 24
+http://31.210.208.171:8080/avto_24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Авто Плюс
+http://31.210.208.171:8080/avto_plus/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кто есть кто
+http://31.210.208.171:8080/kto_est_kto/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кухня ТВ
+http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КВН ТВ
+http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Наша тема
+http://31.210.208.171:8080/nasha_tema/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Оружие
+http://31.210.208.171:8080/oruzhie/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пес и ко
+http://31.210.208.171:8080/pes_i_ko/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пятница
+http://31.210.208.171:8080/piatnica/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Психология 21
+http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Время
+http://31.210.208.171:8080/vremya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Ювелирочка
+http://31.210.208.171:8080/yuvelirochka/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Зоопарк
+http://31.210.208.171:8080/zoopark/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТВ3
+http://31.210.208.171:8080/tv3/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТВЦ
+http://31.210.208.171:8080/tvc/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТЕЛЕКАФЕ
+http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЧЕ
+http://31.210.208.171:8080/che/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Ю
+http://31.210.208.171:8080/u/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ANI
+http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СОЛНЦЕ
+http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мультимузыка
+http://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МУЛЬТ
+http://31.210.208.171:8080/mult/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МУЛЬТ HD
+http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мама
+http://31.210.208.171:8080/mama/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КАРУСЕЛЬ
+http://31.210.208.171:8080/karusel/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",В гостях у сказки
+http://31.210.208.171:8080/v_gostyah_u_skazki/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",TIJI
+http://31.210.208.171:8080/tiji/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МузТВ
+http://31.210.208.171:8080/muztv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",RU.TV
+http://31.210.208.171:8080/ru_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Aiva
+http://31.210.208.171:8080/aiva/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Арена
+http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МАТЧ! ИГРА
+http://31.210.208.171:8080/match_igra/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Боец
+http://31.210.208.171:8080/match_boec/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Страна
+http://31.210.208.171:8080/match_strana/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",MMA-TV.COM
+http://31.210.208.171:8080/mma_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",KHL
+http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",БОКС ТВ
+http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СТАРТ HD
+http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
