@@ -383,8 +383,6 @@ https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv2
 https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",Мультиландия
 https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv2
-#EXTINF:-1 group-title="Turon Media (VPN)",Первый канал HD
-https://stream3.cinerama.uz/1214/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Первый канал
 https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",НТВ
@@ -463,6 +461,8 @@ https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Кинопоказ
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Turon Media (VPN)",Наше Новое Кино
+https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Родное Кино
 https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Кинохит
@@ -731,6 +731,8 @@ http://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/kinoseriya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОУЖАС
 http://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НАШЕ НОВОЕ КИНО
+http://31.210.208.171:8080/nashe_novoe_kino/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МИР
 http://31.210.208.171:8080/mir/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МИР 24 HD
