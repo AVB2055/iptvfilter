@@ -60,17 +60,20 @@ CONFIGS = [
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     },
     # ---------------------------------------------------------
-    # ФАЙЛ 2: Отдельный кино-плейлист
+    # ФАЙЛ 2: Объединенный кино-плейлист (ВАШ + DIMONOVICH)
     # ---------------------------------------------------------
     {
         "output_file": "AVBCinema.m3u8",
         "sources": [
-            "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
+            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCinema.m3u8",  # <-- Ваш оригинальный файл
+            "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u" # <-- Добавляем фильмы отсюда
         ],
         "target_groups": [
+            # Группы из вашего оригинального файла (добавьте сюда другие, если они там были, например "Кино HD")
             'group-title="Новинки кино"',
             'group-title="Films_4k"',
-            'group-title="Фильмы"'
+            'group-title="Фильмы"',
+            'group-title="Кино"' # На всякий случай добавил общую группу, если она есть в вашем файле
         ],
         "group_renames": {}, 
         "exclude_channels": [], 
@@ -78,7 +81,7 @@ CONFIGS = [
     }
 ]
 
-# === ОСНОВНАЯ ЛОГИКА (не требует изменений при добавлении новых файлов) ===
+# === ОСНОВНАЯ ЛОГИКА (не требует изменений) ===
 for config in CONFIGS:
     print(f"\n{'='*50}")
     print(f"🚀 Начинаем сборку: {config['output_file']}")
@@ -117,7 +120,6 @@ for config in CONFIGS:
                     end = clean.find('"', start)
                     current_group = clean[start:end]
                     
-                # Переименование группы, если указано в конфиге
                 if current_group in config["group_renames"]:
                     new_group = config["group_renames"][current_group]
                     current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group}"')
@@ -129,17 +131,14 @@ for config in CONFIGS:
                     block_text = " ".join(current_block).lower()
                     channel_name = current_block[0].split(',')[-1].strip()
                     
-                    # Проверка 1: Ключевые слова
                     if any(kw.lower() in block_text for kw in config["exclude_keywords"]):
                         is_target = False
                         continue
                     
-                    # Проверка 2: Точечные исключения по группе
                     if any(current_group == grp and channel_name == ch for grp, ch in config["exclude_channels"]):
                         is_target = False
                         continue
                     
-                    # Проверка 3: Дубликаты ссылок (с нормализацией http/https)
                     normalized_url = clean.replace('http://', 'https://')
                     if normalized_url in seen_urls:
                         is_target = False
@@ -149,7 +148,6 @@ for config in CONFIGS:
                     result.extend(current_block)
                     is_target = False
 
-    # Сохраняем результат в файл, указанный в конфиге
     with open(config["output_file"], 'w', encoding='utf-8') as f:
         f.write('\n'.join(result))
     
