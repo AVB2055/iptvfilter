@@ -69,8 +69,6 @@ http://igi-hls.cdnvideo.ru/igi/igi_tcode/tracks-v1a1/mono.ts.m3u8
 http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Moscow 24" https://mbmh5s36ok.a.trbcdn.net/572aecd6-static/channel/10185/logo_256.webp group-title="👁Информационные",Москва 24
 https://stream.smotrim.ru/hls/moscow_24/playlist_3.m3u8
-#EXTINF:-1 group-title="👁Информационные",Настоящее время [СМИ иноагент]
-https://dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8
 #EXTINF:-1 group-title="👁Информационные",ОСН
 https://osnmedia.servicecdn.ru/streams/17603_88089/1080n/index.m3u8
 #EXTINF:-1 group-title="👁Информационные",ПРНК
@@ -103,8 +101,6 @@ http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1 group-title="🔎‍Познавательные",Доктор
 http://45.11.139.43:8555/doctor/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные" ,Живи Активно
-https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8?token=test
 #EXTINF:-1 group-title="🔎‍Познавательные",Загородный
 https://bl.rutube.ru/livestream/406973c72e9d0449feef05ef7811ad01/index.m3u8?s=e3gd8zlogu4ybvafQost4g&e=2070450932&scheme=https
 #EXTINF:-1 group-title="🔎‍Познавательные",Звезда Плюс
@@ -1573,8 +1569,6 @@ https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv2
 https://fs.uplink.kz/kinosvidanie/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",Мужское кино
 https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv2
-#EXTINF:-1 group-title="Uplink (VPN)",Наше новое кино
-https://fs.uplink.kz/nashe_novoe_kino/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",TV1000 Русское кино
 https://fs.uplink.kz/viju_tv1000_russkoe/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",TV1000 Action
