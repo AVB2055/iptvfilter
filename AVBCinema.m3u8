@@ -74,9 +74,6 @@ https://kinoleha.net/load/vechnyj-svet?original
 #EXTINF:0,📽Виктор Кроули (2017)
 #EXTGRP:Кинофильмы
 https://kinoleha.net/load/viktor-krouli?original
-#EXTINF:0,📽Война волков
-#EXTGRP:Кинофильмы
-http://video-cdn.simpletv.eu/video/Wolf.Warriors.2015.BDRip.ColdFilm.mkv
 #EXTINF:0,📽Волк с Уолл-стрит (2013)
 #EXTGRP:Кинофильмы
 https://kinoleha.net/load/volk-s-uoll-strit?original
@@ -155,9 +152,6 @@ https://kinoleha.net/load/legendy-smertelqnoj-bitvy--mestq-skorpiona?original
 #EXTINF:0,📽Лего Фильм:Бэтмен (2017)
 #EXTGRP:Кинофильмы
 https://kinoleha.net/load/lego-filqm-byetmen?original
-#EXTINF:0,📽Ледниковый период 5
-#EXTGRP:Кинофильмы
-http://video-cdn.simpletv.eu/video/Ice.Age.Collision.Course.2016.BDRip.720p.mkv
 #EXTINF:0,📽Ликвидатор (2011)
 #EXTGRP:Кинофильмы
 https://kinoleha.net/load/likvidator-kz?original
@@ -2336,8 +2330,6 @@ http://kinoleha.net/load/mulan
 #EXTINF:0,📺Мумия: Перерождение (2019)
 #EXTGRP:Кинофильмы
 http://kinoleha.net/load/mumiya-pererozhdenie
-#EXTINF:-1 group-title="Новинки кино" tvg-logo="https://i.postimg.cc/25VcB58T/auto-x2-1.jpg",🔺 INFO 🔺Посмотри!!!
-https://github.com/Dimonovich/TV/releases/download/v1.0.0/1.mp4
 #EXTINF:-1 group-title="Новинки кино" tvg-logo="https://pic.rtbcdn.ru/video/2026-11-05/7a/4a/7a4a59974dd42a0d53854065466c08e2.jpg", В чужой шкуре (2026)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://river-3-348.rtbcdn.ru/hls-vod/WBjzGTsi0Fv610Yj-sBjkQ/1794757552/3560/0x5000c500fad7a3f1/62f33748c39f440ca44fc458ded425f7.mp4.m3u8?i=1920x1080_5274&streams=v1a1
@@ -5219,8 +5211,6 @@ https://s6.mvzd.ru/content/q6/kw/Vortex_2021_BDRip_1080p_seleZen_1080p.m3u8
 https://s1.mvzd.ru/content/th/el/The_Lord_of_the_Rings-The_Fellowship_of_the_Ring_2001_Extended-Cut_BDR_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/vk/vo/VK_Vozvrashhenie_korolya2_4_480x282.webp",Властелин колец: Возвращение короля (2003)
 https://s1.mvzd.ru/content/vl/as/Vlastelin_Kolec_Vozvrazchenie_Korolya_2003_BDRip_Extended_by_Dalemake_1080p.m3u8
-#EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/vk/dv/VK_-_Dve_kreposti_480x282.webp",Властелин колец: Две крепости (2002)
-https://s1.mvzd.ru/content/th/el/The_Lord_of_the_Rings-The_Two_Towers_2002_Extended-Cut_BDRip-AVC_-HQCL_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/8l/4w/AA1zmTL1_720x406.webp",Во все тяжкие (2008)
 https://s4.mvzd.ru/content/9x/kx/1_Pilotnaya_seriya_Pilot__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/28/e8/456323_JPG_720x406.webp",Возвращение (2006)
@@ -5255,8 +5245,6 @@ https://s5.mvzd.ru/content/dm/kz/Vypusknik_1967_DUAL_BDRip_XviD_AC3_-HQCLUB_1080
 https://s4.mvzd.ru/content/sh/ot/Shot_Caller_2017_Lic_BDRip_1080p_ExKinoRay_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/ps/0z/6559625_JPG_720x406.webp",Гамбит (2012)
 https://s5.mvzd.ru/content/in/hc/Gambit_2012_BDRip_1080p_x264-CHD_1080p.m3u8
-#EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/58/az/452256_JPG_720x406.webp",Ганга Дин (1939)
-https://s5.mvzd.ru/content/84/n1/1939_Gunga_Din_torrents_ru__1080p.m3u88
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/tu/mb/tumblr_d2344898498d840e29f434a107c1a208_a34c9dbb_1280_480x282.webp",Гарри Поттер и философский камень (2001)
 https://s1.mvzd.ru/content/20/01/2001_Garri_Potter_i_filosofskii_kamen_-_Extended_Cut_RUS_Dub_ENG_Orig__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/tu/mb/tumblr_acccc6fd68edd9fc7da0e483a3c8aeac_66c37ca0_1280_480x282.webp",Гарри Поттер и Тайная комната (2002)
@@ -5271,8 +5259,6 @@ https://s1.mvzd.ru/content/ha/rr/Harry_Potter_and_the_Order_of_the_Phoenix_2007_
 https://s1.mvzd.ru/content/ha/rr/Harry_Potter_and_the_Half-Blood_Prince_2009_WEB-DL_OKKO_SDR_2160p-SOFC_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/tu/mb/tumblr_4ff6f2f95f5a717a2dd9998f5c1b0810_7d2b7bd9_1280_480x282.webp",Гарри Поттер и Дары Смерти. Часть 1 (2010)
 https://s1.mvzd.ru/content/ha/rr/Harry_Potter_and_the_Deathly_Hallows_Part_1_2010_WEB-DL_OKKO_SDR_2160p_1080p.m3u8
-#EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/tu/mb/tumblr_7fd877ee0f5ebb517b213914f2f92020_f617b755_1280_480x282.webp",Гарри Поттер и Дары Смерти. Часть 2 (2011)
-https://s1.mvzd.ru/content/ga/rr/Garri_Potter_i_Dary_Smerti_Chast_2_2011_BDRip_1080p_1080p.m3u
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/ge/no/genoc_3_720x406.webp",Геноцид по благословению Ватикана (1993)
 https://s4.mvzd.ru/content/ge/no/Genocid_3_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/dd/m6/a929cc97d5e03f2dfd42236a1d0c1741_720x406.webp",Генрих V: Битва при Азенкуре (1989)
@@ -5339,8 +5325,6 @@ https://s4.mvzd.ru/content/tw/of/Two_for_the_Money_1080p.m3u8
 https://s5.mvzd.ru/content/yt/us/Dzhejn_Ejr_2011_x264_BDRip_1080p__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/f8/dt/85258525663_JPG_720x406.webp",Джек Райан (2018)
 https://s5.mvzd.ru/content/1z/jq/Tom_Clancys_Jack_Ryan_S04E01_1080p_WEB-DL_RGzsRutracker_1080p.m3u8
-#EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/tp/8u/785485_JPG_720x406.webp",Джек Райан: Призрачная война (2026)
-https://s6.mvzd.ru/content/kc/5o/Dzhek_Rayan_Prizrachnaya_voyna_Tom_Clancy_s_Jack_Ryan_Ghost_War_2026__1080p.m3u88
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/78/52/785258965_JPG_720x406.webp",Джон Уик (2014)
 https://s4.mvzd.ru/content/jo/hn/John_Wick_2014_BDRip_1080p_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/75/21/752145620_JPG_720x406.webp",Джон Уик 2 (2017)
@@ -5617,8 +5601,6 @@ https://s5.mvzd.ru/content/gf/jl/Lenin_Poezd_1_serija_iz_2_1988_XviD_DVDRip_feni
 https://s4.mvzd.ru/content/bf/kc/Lilo_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/cd/4a/cd4a30309216cacfd6f906008ea72f98_480x282.webp",Ловец снов (2003)
 https://s1.mvzd.ru/content/lo/ve/Lovec_snov_2003_WEB-DLRip_Open_Matte__1080p.m3u8
-#EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/yi/hn/569596_JPG_720x406.webp",Луна 44 (1990)
-https://s5.mvzd.ru/content/as/kb/Moon_44_1__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/96/51/96514563_JPG_720x406.webp",Лунная афера (2015)
 https://s4.mvzd.ru/content/mo/on/Moonwalkers_2015_BDRip_1080p_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/78/52/7852145632_JPG_720x406.webp",Лучший стрелок (1986)
@@ -5655,8 +5637,6 @@ https://s4.mvzd.ru/content/in/od/The_Master_2012_1080p_BluRay_2xRus_Eng_HDCLUB-S
 https://s1.mvzd.ru/content/ma/tr/Matrica_1999_WEB-DL_2160p_1__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/4a/56/4a5675fd89328c4cc0a577146ec43298_480x282.webp",Матрица: Воскрешение (2021)
 https://s1.mvzd.ru/content/ma/tr/Matrica_Voskreshenie_-_The_Matrix_Resurrections_2021_BDRemux_1080p_1080p.m3u8
-#EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/82/0e/820e07ed87b1add85f2c01bdacbdbebc_480x282.webp",Матрица: Перезагрузка (2003)
-https://s1.mvzd.ru/content/ma/tr/Matrica_Perezagruzka_2003_WEB-DL_2160p_1__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/3c/fc/3cfcb43bb3d6550ef58aa6018d78f6b1_480x282.webp",Матрица: Революция (2003)
 https://s1.mvzd.ru/content/ma/tr/Matrica_Revolyuciya_-_The_Matrix_Revolutions_2003_Open_Matte_-_LORDKIL_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/d6/j9/War-Machine_720x406.webp",Машина войны (2017)
@@ -5951,8 +5931,6 @@ https://s4.mvzd.ru/content/pr/in/Princess_Mononoke_1997_BDRip_1080p_HEVC__1080p.
 https://s5.mvzd.ru/content/8d/zw/Princip_Noeva_kovchega_1984__1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/45/21/4521452125_JPG_720x406.webp",Прислуга (2011)
 https://s4.mvzd.ru/content/th/eh/The_Help_2011_720p_BluRay_DTS_Rus_Eng_HDCLUB_1080p.m3u8
-#EXTINF:-1 group-title="Фильмы",Про Красную шапочку (1977)
-https://1rus.ru/content//_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/lt/l7/202604121040295e2b3cf1a9_720x406.webp",Проект «Конец света» (2026)
 https://s6.mvzd.ru/content/sz/tx/Project_Hail_Mary_2026_WEBRip_1080p_H264_DD51_1080p.m3u8
 #EXTINF:-1 group-title="Фильмы" tvg-logo="https://1rus.ru/content/8x/0r/27-976353_720x406.webp",Проект Флорида (2017)
