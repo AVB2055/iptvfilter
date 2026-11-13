@@ -26,5 +26,5 @@ jobs:
       - name: Auto Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update: AVBTVfull.m3u refreshed"
-          file_pattern: AVBTVfull.m3u
+          commit_message: "Auto-update: playlists refreshed"
+          file_pattern: "*.m3u*"
