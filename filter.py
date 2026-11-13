@@ -2,14 +2,12 @@ import urllib.request
 
 # СПИСОК исходных плейлистов
 SOURCE_URLS = [
-        "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8",
-        "http://stream.mcquack.net/stream.mcquack.net.m3u",
-        "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV"
-
-    # Добавьте другие URL-ы сюда
+    "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8",
+    "http://stream.mcquack.net/stream.mcquack.net.m3u",
+    "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV"
 ]
 
-# Группы, которые нужно оставить
+# Группы, которые нужно оставить (оставляем и старые, и новые названия для надежности)
 TARGET_GROUPS = [
     'group-title="🇷🇺Федеральные"',
     'group-title="📻Радио"',
@@ -18,6 +16,7 @@ TARGET_GROUPS = [
     'group-title="🤣Развлекательные"',
     'group-title="🎶Музыкальные"',
     'group-title="⛹🏿Спортивные"',
+    'group-title="🧒Детские"',
     'group-title="🎦📺Фильмы 🔹 Сериалы"',
     'group-title="🎬Kinowalk TV  Not 24-7"',
     'group-title="Познавательные"',
@@ -34,24 +33,32 @@ TARGET_GROUPS = [
     'group-title="Internet42 LLC"'
 ]
 
-# 1. Глобальные исключения по ключевым словам (удаляют каналы во ВСЕХ группах)
+# СЛОВАРЬ ПЕРЕИМЕНОВАНИЯ ГРУПП
+# Формат: 'Старое название': 'Новое название с эмодзи'
+GROUP_RENAMES = {
+    "Познавательные": "🔎‍Познавательные",
+    "Развлекательные": "🤣Развлекательные",
+    "Музыкальные": "🎶Музыкальные",
+    "Спорт": "⛹🏿Спортивные",
+    "Детские": "🧒Детские",
+    "Кино": "🎦📺Фильмы 🔹 Сериалы"
+}
+
+# 1. Глобальные исключения по ключевым словам
 EXCLUDE_KEYWORDS = [
     "Shop",
     "18+",
     "магазин"
 ]
 
-# 2. Точечные исключения по названию (удаляют канал во ВСЕХ группах)
+# 2. Точечные исключения по названию
 EXCLUDE_SPECIFIC = [
     "Тестовый канал"
 ]
 
-# 3. ИСКЛЮЧЕНИЯ ПО ГРУППАМ: удаляют канал ТОЛЬКО в указанной группе
-# Формат: ('название группы', 'название канала')
-# Название группы должно точно совпадать с тем, что внутри group-title="..."
+# 3. ИСКЛЮЧЕНИЯ ПО ГРУППАМ
 EXCLUDE_BY_GROUP = [
     ('Turon Media (VPN)', 'Первый канал HD')
-    # Добавьте свои пары ниже
 ]
 
 result = ["#EXTM3U"]
@@ -88,6 +95,15 @@ for url in SOURCE_URLS:
                 end = clean.find('"', start)
                 current_group = clean[start:end]
                 
+            # === НОВАЯ ЛОГИКА: Переименование группы на лету ===
+            if current_group in GROUP_RENAMES:
+                new_group_name = GROUP_RENAMES[current_group]
+                # Заменяем старое название группы на новое прямо в строке #EXTINF
+                current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group_name}"')
+                # Обновляем переменную, чтобы дальнейшие проверки использовали новое имя
+                current_group = new_group_name
+            # ====================================================
+                
         elif is_target:
             current_block.append(clean)
             if clean.startswith('http://') or clean.startswith('https://'):
@@ -117,7 +133,7 @@ for url in SOURCE_URLS:
                     is_target = False
                     continue
                 
-                # Если все проверки пройдены — добавляем канал
+                # Если все проверки пройдены — добавляем канал (уже с переименованной группой)
                 result.extend(current_block)
                 is_target = False
 
