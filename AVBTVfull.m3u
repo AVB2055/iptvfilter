@@ -1170,9 +1170,6 @@ http://stream.mcquack.net/279/index.m3u8
 #EXTINF:-1 group-title="⛹🏿Спортивные" tvg-rec="7" timeshift="7",Equalympic
 #EXTGRP:Спорт
 http://stream.mcquack.net/485/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные" tvg-rec="7" timeshift="7",ОККО Спорт
-#EXTGRP:Спорт
-http://stream.mcquack.net/492/index.m3u8
 #EXTINF:-1 group-title="🧒Детские" tvg-rec="7" timeshift="7",Nickelodeon
 #EXTGRP:Детские
 http://stream.mcquack.net/443/index.m3u8
