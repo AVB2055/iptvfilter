@@ -1325,12 +1325,6 @@ http://176.118.197.101/NTV/index.m3u8
 http://176.118.197.101/TNT4/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", Bollywood HD
 http://176.118.197.101/Bollywood_HD/index.m3u8
-#EXTINF:-1 group-title="Internet42 LLC", Cinema
-http://176.118.197.101/Cinema/index.m3u8
-#EXTINF:-1 group-title="Internet42 LLC", Еврокино
-http://176.118.197.101/Evrokino/index.m3u8
-#EXTINF:-1 group-title="Internet42 LLC", Иллюзион+
-http://176.118.197.101/Illuzion+/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", Кинокомедия
 http://176.118.197.101/Kinokomediya/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", Киномикс
@@ -1377,8 +1371,6 @@ https://flussonic.mkpnet.ru/tv-d696bdfd6a0e4373/video.m3u8
 https://flussonic.mkpnet.ru/tv-6c5b49dbcf811fc6/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Россия К
 https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",Рен ТВ
-https://flussonic.mkpnet.ru/tv-44dfec2799c5738e/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",НТВ
 https://flussonic.mkpnet.ru/tv-1bc5d712ea5ace74/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",ТНТ4
@@ -1477,8 +1469,6 @@ https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
 https://flussonic.mkpnet.ru/tv-297099e2d5179304/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Успех
 https://flussonic.mkpnet.ru/tv-324fe9acc597fbc1/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",Че
-https://flussonic.mkpnet.ru/tv-cf5a26a180f402ef/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Ю
 https://flussonic.mkpnet.ru/tv-3b21847ece4b1c19/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Солнце
@@ -1911,8 +1901,6 @@ https://stream8.cinerama.uz/1252/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1010/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Fashion TV
 https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Euronews
-https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",English Club
 https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Dunyo bo`ylab UZ
@@ -2508,8 +2496,6 @@ http://31.210.208.171:8080/ntv/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/tnt/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТНТ4
 http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Россия К
-http://31.210.208.171:8080/russiak/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ИСТОРИЯ
 http://31.210.208.171:8080/istoriya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Big Planet
@@ -2526,8 +2512,6 @@ http://31.210.208.171:8080/zagorodnaya_zhizn/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/zhivaya_planeta/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",2x2
 http://31.210.208.171:8080/2x2/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пятый канал
-http://31.210.208.171:8080/5kanal/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",FAN
 http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",RT
@@ -2536,8 +2520,6 @@ http://31.210.208.171:8080/rt/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",TV XXI
 http://31.210.208.171:8080/xxi/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОМАШНИЙ
-http://31.210.208.171:8080/home/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОРАМА
 http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЕВРОКИНО
@@ -2610,8 +2592,6 @@ http://31.210.208.171:8080/russian_roman/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/krasnaya_liniya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СПАС
 http://31.210.208.171:8080/spas/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СТС
-http://31.210.208.171:8080/sts/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",360 HD
 http://31.210.208.171:8080/360_HD/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Авто 24
@@ -2624,8 +2604,6 @@ http://31.210.208.171:8080/kto_est_kto/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КВН ТВ
 http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Наша тема
-http://31.210.208.171:8080/nasha_tema/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Оружие
 http://31.210.208.171:8080/oruzhie/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пес и ко
@@ -2642,8 +2620,6 @@ http://31.210.208.171:8080/yuvelirochka/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/zoopark/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТВ3
 http://31.210.208.171:8080/tv3/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТВЦ
-http://31.210.208.171:8080/tvc/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТЕЛЕКАФЕ
 http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЧЕ
@@ -2662,8 +2638,6 @@ http://31.210.208.171:8080/mult/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мама
 http://31.210.208.171:8080/mama/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КАРУСЕЛЬ
-http://31.210.208.171:8080/karusel/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",В гостях у сказки
 http://31.210.208.171:8080/v_gostyah_u_skazki/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",TIJI
