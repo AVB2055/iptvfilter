@@ -50,7 +50,27 @@ EXCLUDE_CHANNELS = [
     ('⛹🏿Спортивные', 'Qazsport'),
     ('⛹🏿Спортивные', 'ОККО Футбол'),
     ('⛹🏿Спортивные', 'ОККО Прайм Спорт'),
-    ('Internet42 LLC', 'ТНТ4')
+    ('Internet42 LLC', 'ТНТ4'),
+    ('Internet42 LLC', 'Театр'),
+    ('Internet42 LLC', 'Телекафе'),
+    ('Internet42 LLC', 'Cartoon Network'),
+    ('Uplink (VPN)', 'Живи'),
+    ('Turon Media (VPN)', 'Discovery Science'),
+    ('Turon Media (VPN)', 'ТНТ Music'),
+    ('Turon Media (VPN)', 'Globus Music'),
+    ('Turon Media (VPN)', '1HD'),
+    ('Rutube (VPN)', 'CGTN Русский'),  
+    ('Rutube (VPN)', 'Плюс минус 16'),  
+    ('Rutube (VPN)', 'РБК'),
+    ('Rutube (VPN)', 'Илли ТВ'),
+    ('Rutube (VPN)', 'ТОЛК'),
+    ('Квант-Телеком (VPN 🇷🇺)', 'Big Planet'),
+    ('Квант-Телеком (VPN 🇷🇺)', 'Моя планета'),
+    ('Квант-Телеком (VPN 🇷🇺)', 'TV XXI'),
+    ('Квант-Телеком (VPN 🇷🇺)', 'КИНОСЕРИЯ'),  
+    ('Квант-Телеком (VPN 🇷🇺)', 'Индия'),  
+    ('Квант-Телеком (VPN 🇷🇺)', 'МУЛЬТ'),  
+    ('Квант-Телеком (VPN 🇷🇺)', 'Aiva')
 ]
 
 # Исключения по ключевым словам (удаляют каналы ВЕЗДЕ)
