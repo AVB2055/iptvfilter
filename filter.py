@@ -72,4 +72,45 @@ for url in SOURCE_URLS:
             is_target = any(group in clean for group in TARGET_GROUPS)
             
             current_group = ""
-           
+            if 'group-title="' in clean:
+                start = clean.find('group-title="') + len('group-title="')
+                end = clean.find('"', start)
+                current_group = clean[start:end]
+                
+            if current_group in GROUP_RENAMES:
+                new_group = GROUP_RENAMES[current_group]
+                # ИСПРАВЛЕННАЯ СТРОКА - добавлены закрывающая кавычка и скобка
+                current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group}"')
+                current_group = new_group
+                
+        elif is_target:
+            current_block.append(clean)
+            if clean.startswith('http://') or clean.startswith('https://'):
+                block_text = " ".join(current_block).lower()
+                
+                if any(kw.lower() in block_text for kw in EXCLUDE_KEYWORDS):
+                    is_target = False
+                    continue
+                
+                channel_name = current_block[0].split(',')[-1].strip()
+                if channel_name.lower() in [name.lower() for name in EXCLUDE_SPECIFIC]:
+                    is_target = False
+                    continue
+                
+                if any(current_group == grp and channel_name.lower() == ch.lower() for grp, ch in EXCLUDE_BY_GROUP):
+                    is_target = False
+                    continue
+                
+                if clean in seen_urls:
+                    is_target = False
+                    continue
+                
+                seen_urls.add(clean)
+                result.extend(current_block)
+                is_target = False
+
+with open('iptv.m3u', 'w', encoding='utf-8') as f:
+    f.write('\n'.join(result))
+
+unique_count = len([line for line in result if line.startswith('#EXTINF')])
+print(f"Готово! Добавлено уникальных каналов: {unique_count}")
