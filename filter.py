@@ -2,13 +2,30 @@ import urllib.request
 
 # СПИСОК исходных плейлистов
 SOURCE_URLS = [
-    "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV",
-     "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8"
+        "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8",
+        "http://stream.mcquack.net/stream.mcquack.net.m3u",
+        "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/TV"
+
     # Добавьте другие URL-ы сюда
 ]
 
 # Группы, которые нужно оставить
 TARGET_GROUPS = [
+    'group-title="🇷🇺Федеральные"',
+    'group-title="📻Радио"',
+    'group-title="👁Информационные"',
+    'group-title="🔎‍Познавательные"',
+    'group-title="🤣Развлекательные"',
+    'group-title="🎶Музыкальные"',
+    'group-title="⛹🏿Спортивные"',
+    'group-title="🎦📺Фильмы 🔹 Сериалы"',
+    'group-title="🎬Kinowalk TV  Not 24-7"',
+    'group-title="Познавательные"',
+    'group-title="Развлекательные"',
+    'group-title="Музыкальные"',
+    'group-title="Спорт"',
+    'group-title="Детские"'
+    'group-title="Кино"'
     'group-title="Квант-Телеком (VPN 🇷🇺)"',
     'group-title="Turon Media (VPN)"',
     'group-title="Uplink (VPN)"',
