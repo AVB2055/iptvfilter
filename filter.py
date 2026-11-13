@@ -40,9 +40,21 @@ GROUP_RENAMES = {
     "Кино": "🎦📺Фильмы 🔹 Сериалы"
 }
 
-EXCLUDE_KEYWORDS = ["Shop", "18+", "магазин"]
-EXCLUDE_SPECIFIC = ["Тестовый канал"]
-EXCLUDE_BY_GROUP = [('Turon Media (VPN)', 'Первый канал HD')]
+# === ИСКЛЮЧЕНИЯ КАНАЛОВ ===
+# Формат: ('название группы', 'название канала')
+EXCLUDE_CHANNELS = [
+    ('Turon Media (VPN)', 'Первый канал HD'),
+    ('Uplink (VPN)', 'Наше новое кино'),
+]
+
+# Исключения по ключевым словам (удаляют каналы ВЕЗДЕ)
+EXCLUDE_KEYWORDS = [
+    "Shop",
+    "18+",
+    "магазин",
+    "test",
+    "backup"
+]
 
 result = ["#EXTM3U"]
 seen_urls = set()
@@ -79,7 +91,6 @@ for url in SOURCE_URLS:
                 
             if current_group in GROUP_RENAMES:
                 new_group = GROUP_RENAMES[current_group]
-                # ИСПРАВЛЕННАЯ СТРОКА - добавлены закрывающая кавычка и скобка
                 current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group}"')
                 current_group = new_group
                 
@@ -87,25 +98,29 @@ for url in SOURCE_URLS:
             current_block.append(clean)
             if clean.startswith('http://') or clean.startswith('https://'):
                 block_text = " ".join(current_block).lower()
+                channel_name = current_block[0].split(',')[-1].strip()
                 
+                # Проверка 1: Ключевые слова
                 if any(kw.lower() in block_text for kw in EXCLUDE_KEYWORDS):
                     is_target = False
                     continue
                 
-                channel_name = current_block[0].split(',')[-1].strip()
-                if channel_name.lower() in [name.lower() for name in EXCLUDE_SPECIFIC]:
+                # Проверка 2: Точечные исключения по группе
+                if any(current_group == grp and channel_name == ch for grp, ch in EXCLUDE_CHANNELS):
                     is_target = False
                     continue
                 
-                if any(current_group == grp and channel_name.lower() == ch.lower() for grp, ch in EXCLUDE_BY_GROUP):
+                # === Проверка 3: Дубликаты ссылок (С НОРМАЛИЗАЦИЕЙ HTTP/HTTPS) ===
+                # Приводим ссылку к единому виду (https), чтобы http и https считались одним и тем же
+                normalized_url = clean.replace('http://', 'https://')
+                
+                if normalized_url in seen_urls:
                     is_target = False
                     continue
                 
-                if clean in seen_urls:
-                    is_target = False
-                    continue
+                # Запоминаем нормализованную ссылку
+                seen_urls.add(normalized_url)
                 
-                seen_urls.add(clean)
                 result.extend(current_block)
                 is_target = False
 
