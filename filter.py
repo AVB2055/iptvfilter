@@ -124,7 +124,7 @@ for url in SOURCE_URLS:
                 result.extend(current_block)
                 is_target = False
 
-with open('iptv.m3u', 'w', encoding='utf-8') as f:
+with open('AVBTVfull.m3u', 'w', encoding='utf-8') as f:
     f.write('\n'.join(result))
 
 unique_count = len([line for line in result if line.startswith('#EXTINF')])
