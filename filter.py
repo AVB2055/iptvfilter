@@ -39,7 +39,7 @@ CONFIGS = [
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     },
     {
-        "output_file": "AVBCinema.m3u8",
+        "output_file": "AVBCinemaFull.m3u8",
         "sources": [
             "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCinema.m3u8",
             "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
