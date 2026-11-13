@@ -1326,14 +1326,8 @@ http://176.118.197.101/Nostalgiya/index.m3u8
 http://176.118.197.101/RBK/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", Ретро
 http://176.118.197.101/Retro/index.m3u8
-#EXTINF:-1 group-title="Internet42 LLC", Театр
-http://176.118.197.101/Teatr/index.m3u8
-#EXTINF:-1 group-title="Internet42 LLC", Телекафе
-http://176.118.197.101/Telekafe/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", 1HD
 http://176.118.197.101/1HD/index.m3u8
-#EXTINF:-1 group-title="Internet42 LLC", Cartoon Network
-http://176.118.197.101/Cartoon_Network/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", KHL
 http://176.118.197.101/KHL/index.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Первый канал
@@ -1598,8 +1592,6 @@ https://fs.uplink.kz/u/mono.m3u8?token=onlinetv2
 https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",Жара
 https://fs.uplink.kz/zhara/mono.m3u8?token=onlinetv2
-#EXTINF:-1 group-title="Uplink (VPN)",Живи
-https://fs.uplink.kz/zhivi/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",Сарафан
 https://fs.uplink.kz/sarafan/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Uplink (VPN)",Зоопарк
@@ -1716,8 +1708,6 @@ https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",National Geographic
 https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Discovery Science
-https://stream8.cinerama.uz/1040/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Insight TV HD
 https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Точка РФ
@@ -1936,20 +1926,14 @@ https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1238/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",СТВ  Музыка HD
 https://stream8.cinerama.uz/1018/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",ТНТ Music
-https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",МузТВ
 https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Муз ТВ UZ
 https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",RU.TV
 https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Globus Music
-https://stream8.cinerama.uz/1245/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Biz Music HD UZ
 https://stream8.cinerama.uz/1212/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",1HD
-https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Rutube (VPN)",Rutube TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=hR9fRH0H1hqu6-IOqKygKg&e=2094556527&scheme=https
@@ -1983,9 +1967,6 @@ https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?s=N5
 #EXTINF:-1 group-title="Rutube (VPN)",Ю
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?s=oY9sYOnV4jxYVljRNzxPvQ&e=2094556531&scheme=https
-#EXTINF:-1 group-title="Rutube (VPN)",CGTN Русский
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/f785d738a845cc80658e887843a18ed9/index.m3u8?s=5rrZ-u71pd4sZqcBT4t3Ew&e=2094556531&scheme=https
 #EXTINF:-1 group-title="Rutube (VPN)",Нано ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/cf958b6c9ae4504be5fc2c1de358a017/index.m3u8?s=YLMJjR2PQE5_plRirroTKg&e=2094556532&scheme=https
@@ -2091,9 +2072,6 @@ https://bl.rutube.ru/livestream/39c5bfe012402990e6402eded8bdc761/index.m3u8?s=Ok
 #EXTINF:-1 group-title="Rutube (VPN)",Союзный
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/46c03b7f1a7255326900f4a60a9b44e0/index.m3u8?s=b-mIbZ39Ab5zntANghM6rA&e=2094556541&scheme=https
-#EXTINF:-1 group-title="Rutube (VPN)",Плюс минус 16
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/99d4597cea881a27cf7dd6e65a74dade/index.m3u8?s=7XIYzzoFRrQilDEgYXlkvQ&e=2094556542&scheme=https
 #EXTINF:-1 group-title="Rutube (VPN)",Сургут 86 FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/813dc0c5a944559e7e52b840d09a84f6/index.m3u8?s=rUgI2Hb2GmaeQTDE1bmdew&e=2094556542&scheme=https
@@ -2127,9 +2105,6 @@ https://bl.rutube.ru/livestream/c6f66b644424c117f41e48062719ceed/index.m3u8?s=Bc
 #EXTINF:-1 group-title="Rutube (VPN)",РГВК Дагестан
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/fcafa0d358df671e4f7c61ca54c79bea/index.m3u8?s=DskOdBe6kljbVfw_bSGYyg&e=2094556544&scheme=https
-#EXTINF:-1 group-title="Rutube (VPN)",РБК
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/75957f55ed1e9b4e0ec00f8dd9594fcc/index.m3u8?s=Gk61s1k8HGun4PS33D3AEA&e=2094556545&scheme=https
 #EXTINF:-1 group-title="Rutube (VPN)",Таврия
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/a969ca8279415378bc8abd345fcfded9/index.m3u8?s=sLkyEve4VPQyN7dXcVx05A&e=2094556545&scheme=https
@@ -2160,9 +2135,6 @@ https://bl.rutube.ru/livestream/dce1080977de5e89dcbd1dd24d014b4e/index.m3u8?s=uu
 #EXTINF:-1 group-title="Rutube (VPN)",Волга
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/bed2dcda74004e4e9a61966d2848c027/index.m3u8?s=nvJ4w4l7MP77lYeQ8tjWtw&e=2094556547&scheme=https
-#EXTINF:-1 group-title="Rutube (VPN)",Илли ТВ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/eda2da42eea89951e4135141a30915f7/index.m3u8?s=qQAurr5PaJpx5Yp6H48CSA&e=2094556548&scheme=https
 #EXTINF:-1 group-title="Rutube (VPN)",ЛТВ (Люберцы)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/067561b5754d0b7844762fa92939716b/index.m3u8?s=kUnmJCAQvzjW56WitI93Mw&e=2094556548&scheme=https
@@ -2238,9 +2210,6 @@ https://bl.rutube.ru/livestream/b4c501ea4129408a3c195f9ae4359c0e/index.m3u8?s=WS
 #EXTINF:-1 group-title="Rutube (VPN)",Евразия
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/ce34005d3db841e15eecb7e31749adf6/index.m3u8?s=PVYFRTIw7YILhjFs84owCQ&e=2094556555&scheme=https
-#EXTINF:-1 group-title="Rutube (VPN)",ТОЛК
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://bl.rutube.ru/livestream/0115cdc35fb5234242a89de98137dca9/index.m3u8?s=8bZ_xJMlY7PdROCX2OXDoA&e=2094556555&scheme=https
 #EXTINF:-1 group-title="Rutube (VPN)",ННТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/333f94ef9af118c0ac51006243053e07/index.m3u8?s=JcdNPdSdEME4qnXcWA0RBw&e=2094556555&scheme=https
@@ -2473,10 +2442,6 @@ http://31.210.208.171:8080/tnt/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ИСТОРИЯ
 http://31.210.208.171:8080/istoriya/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Big Planet
-http://31.210.208.171:8080/big_planet/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Моя планета
-http://31.210.208.171:8080/moya_planeta/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Viasat Explore
 http://31.210.208.171:8080/viju_explore/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Viasat History
@@ -2493,8 +2458,6 @@ http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/rt/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",SHOT TV
 http://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",TV XXI
-http://31.210.208.171:8080/xxi/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОРАМА
 http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЕВРОКИНО
@@ -2509,8 +2472,6 @@ http://31.210.208.171:8080/zvezda/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/kinotv/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОМИКС
 http://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОСЕРИЯ
-http://31.210.208.171:8080/kinoseriya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОУЖАС
 http://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НАШЕ НОВОЕ КИНО
@@ -2537,8 +2498,6 @@ http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/cinema/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Дом кино
 http://31.210.208.171:8080/dom_kino/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Индия
-http://31.210.208.171:8080/indiya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинеко HD
 http://31.210.208.171:8080/kineko/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киносемья
@@ -2607,8 +2566,6 @@ http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мультимузыка
 http://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МУЛЬТ
-http://31.210.208.171:8080/mult/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МУЛЬТ HD
 http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мама
@@ -2621,8 +2578,6 @@ http://31.210.208.171:8080/tiji/index.m3u8?token=+W2MSER
 http://31.210.208.171:8080/muztv/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",RU.TV
 http://31.210.208.171:8080/ru_tv/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Aiva
-http://31.210.208.171:8080/aiva/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Арена
 http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МАТЧ! ИГРА
