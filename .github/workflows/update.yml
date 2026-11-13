@@ -2,14 +2,14 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Запускать каждые 6 часов
-  workflow_dispatch:       # Позволяет запускать вручную
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # Разрешение на сохранение файлов
+      contents: write
     
     steps:
       - name: Checkout repository
