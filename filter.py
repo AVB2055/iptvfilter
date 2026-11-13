@@ -18,9 +18,12 @@ CONFIGS = [
             'group-title="Uplink (VPN)"', 'group-title="Оргтехсервис (VPN)"', 'group-title="Internet42 LLC"'
         ],
         "group_renames": {
-            "Познавательные": "🔎‍Познавательные", "Развлекательные": "🤣Развлекательные",
-            "Музыкальные": "🎶Музыкальные", "Спорт": "⛹🏿Спортивные",
-            "Детские": "🧒Детские", "Кино": "🎦📺Фильмы 🔹 Сериалы"
+            "Познавательные": "🔎‍Познавательные", 
+            "Развлекательные": "🤣Развлекательные",
+            "Музыкальные": "🎶Музыкальные", 
+            "Спорт": "⛹🏿Спортивные",
+            "Детские": "🧒Детские", 
+            "Кино": "🎦📺Фильмы 🔹 Сериалы"
         },
         "exclude_channels": [
             ('⛹🏿Спортивные', 'Eurosport 1'), ('⛹🏿Спортивные', 'Eurosport 2'), ('⛹🏿Спортивные', 'Setanta Sports UA'),
@@ -50,7 +53,14 @@ CONFIGS = [
         ],
         "group_renames": {},
         "exclude_channels": [
-        ('Новинки кино', '🔺 INFO 🔺Посмотри!!!'),('Фильмы', 'Властелин колец: Две крепости (2002)'),('Фильмы', 'Ганга Дин (1939)'),('Фильмы', 'Гарри Поттер и Дары Смерти. Часть 2 (2011)'),('Фильмы', 'Джек Райан: Призрачная война (2026)'),('Фильмы', 'Луна 44 (1990)'),('Фильмы', 'Матрица: Перезагрузка (2003)'),('Фильмы', 'Про Красную шапочку (1977)'),('Фильмы', 'Про Красную шапочку (1977)')
+            ('Новинки кино', '🔺 INFO 🔺Посмотри!!!'),
+            ('Фильмы', 'Властелин колец: Две крепости (2002)'),
+            ('Фильмы', 'Ганга Дин (1939)'),
+            ('Фильмы', 'Гарри Поттер и Дары Смерти. Часть 2 (2011)'),
+            ('Фильмы', 'Джек Райан: Призрачная война (2026)'),
+            ('Фильмы', 'Луна 44 (1990)'),
+            ('Фильмы', 'Матрица: Перезагрузка (2003)'),
+            ('Фильмы', 'Про Красную шапочку (1977)')
         ],
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     }
@@ -92,10 +102,23 @@ for config in CONFIGS:
                     start = clean.find('group-title="') + len('group-title="')
                     end = clean.find('"', start)
                     current_group = clean[start:end]
+                
+                # 🔧 ВОССТАНОВЛЕННЫЙ БЛОК: Переименование группы в #EXTINF
+                if current_group in config["group_renames"]:
+                    new_group = config["group_renames"][current_group]
+                    current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group}"')
+                    current_group = new_group
             
             elif clean.startswith('#EXTGRP:'):
                 current_group = clean.replace('#EXTGRP:', '').strip()
                 is_target = any(current_group in target or f'group-title="{current_group}"' in target for target in config["target_groups"])
+                
+                # 🔧 ДОПОЛНИТЕЛЬНО: Переименование группы в #EXTGRP (если источник использует этот формат)
+                if current_group in config["group_renames"]:
+                    new_group = config["group_renames"][current_group]
+                    clean = f'#EXTGRP:{new_group}'
+                    current_group = new_group
+                
                 current_block.append(clean)
                 continue
             
