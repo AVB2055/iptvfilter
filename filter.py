@@ -34,7 +34,6 @@ TARGET_GROUPS = [
 ]
 
 # СЛОВАРЬ ПЕРЕИМЕНОВАНИЯ ГРУПП
-# Формат: 'Старое название': 'Новое название с эмодзи'
 GROUP_RENAMES = {
     "Познавательные": "🔎‍Познавательные",
     "Развлекательные": "🤣Развлекательные",
@@ -62,6 +61,7 @@ EXCLUDE_BY_GROUP = [
 ]
 
 result = ["#EXTM3U"]
+seen_urls = set()  # <--- НОВОЕ: Множество для хранения уже добавленных ссылок (защита от дублей)
 
 for url in SOURCE_URLS:
     print(f"Обработка: {url}")
@@ -95,49 +95,7 @@ for url in SOURCE_URLS:
                 end = clean.find('"', start)
                 current_group = clean[start:end]
                 
-            # === НОВАЯ ЛОГИКА: Переименование группы на лету ===
+            # Переименование группы на лету
             if current_group in GROUP_RENAMES:
                 new_group_name = GROUP_RENAMES[current_group]
-                # Заменяем старое название группы на новое прямо в строке #EXTINF
-                current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group_name}"')
-                # Обновляем переменную, чтобы дальнейшие проверки использовали новое имя
-                current_group = new_group_name
-            # ====================================================
-                
-        elif is_target:
-            current_block.append(clean)
-            if clean.startswith('http://') or clean.startswith('https://'):
-                block_text = " ".join(current_block).lower()
-                
-                # Проверка 1: глобальные ключевые слова
-                exclude_keywords_lower = [kw.lower() for kw in EXCLUDE_KEYWORDS]
-                if any(kw in block_text for kw in exclude_keywords_lower):
-                    is_target = False
-                    continue
-                
-                # Проверка 2: глобальные точные названия
-                channel_name = current_block[0].split(',')[-1].strip()
-                exclude_specific_lower = [name.lower() for name in EXCLUDE_SPECIFIC]
-                if channel_name.lower() in exclude_specific_lower:
-                    is_target = False
-                    continue
-                
-                # Проверка 3: точечные исключения по группе
-                should_exclude = False
-                for group_name, channel_to_exclude in EXCLUDE_BY_GROUP:
-                    if current_group == group_name and channel_name.lower() == channel_to_exclude.lower():
-                        should_exclude = True
-                        break
-                
-                if should_exclude:
-                    is_target = False
-                    continue
-                
-                # Если все проверки пройдены — добавляем канал (уже с переименованной группой)
-                result.extend(current_block)
-                is_target = False
-
-with open('iptv.m3u', 'w', encoding='utf-8') as f:
-    f.write('\n'.join(result))
-
-print(f"Готово! Добавлено каналов: {len([line for line in result if line.startswith('#EXTINF')])}")
+                current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group_name}"
