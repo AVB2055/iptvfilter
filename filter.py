@@ -2,7 +2,7 @@ import urllib.request
 
 CONFIGS = [
     {
-        "output_file": "AVBTV.m3u",
+        "output_file": "AVBTVbig.m3u",
         "sources": [
             "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBTV.m3u8",
             "http://stream.mcquack.net/stream.mcquack.net.m3u",
