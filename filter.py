@@ -133,8 +133,8 @@ CONFIGS = [
         # 🆕 Блокировка по части URL (домен или IP)
         "exclude_url_keywords": [
             "primer.primer.ru",
-            "0.0.0.0"
-        ],
+            "31.210.208.171:8080"
+         ],
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     },
     {
