@@ -26,7 +26,6 @@ CONFIGS = [
             "Кино": "🎦📺Фильмы 🔹 Сериалы+Реклама"
         },
         "exclude_channels": [
-            # --- Развлекательные ---
             ('🤣Развлекательные+Реклама', 'Інтер+'), ('🤣Развлекательные+Реклама', 'Новий канал'),
             ('🤣Развлекательные+Реклама', 'ICTV 2'), ('🤣Развлекательные+Реклама', 'Світ навиворіт+'),
             ('🤣Развлекательные+Реклама', 'СТБ'), ('🤣Развлекательные+Реклама', '2+2'),
@@ -43,7 +42,6 @@ CONFIGS = [
             ('🤣Развлекательные+Реклама', 'Знаєм 24'), ('🤣Развлекательные+Реклама', 'Наталі ТВ'),
             ('🤣Развлекательные+Реклама', 'Вікторина'), ('🤣Развлекательные+Реклама', 'Невигадані Історії'),
             ('🤣Развлекательные+Реклама', 'Про Київ'), ('🤣Развлекательные+Реклама', 'Ми - Україна'),
-            # --- Познавательные ---
             ('🔎‍Познавательные+Реклама', 'Світ+'), ('🔎‍Познавательные+Реклама', 'ЗооСвіт'),
             ('🔎‍Познавательные+Реклама', 'Quiz TV'), ('🔎‍Познавательные+Реклама', 'Терра'),
             ('🔎‍Познавательные+Реклама', 'Наука'), ('🔎‍Познавательные+Реклама', 'Перший Автомобільний'),
@@ -51,7 +49,6 @@ CONFIGS = [
             ('🔎‍Познавательные+Реклама', '6 Соток'), ('🔎‍Познавательные+Реклама', 'Закон'),
             ('🔎‍Познавательные+Реклама', 'Масон'), ('🔎‍Познавательные+Реклама', 'Трофей'),
             ('🔎‍Познавательные+Реклама', 'Нано ТВ'),
-            # --- Спортивные ---
             ('⛹🏿Спортивные+Реклама', 'Eurosport 1'), ('⛹🏿Спортивные+Реклама', 'Eurosport 2'),
             ('⛹🏿Спортивные+Реклама', 'Setanta Sports UA'), ('⛹🏿Спортивные+Реклама', 'Setanta Sports+'),
             ('⛹🏿Спортивные+Реклама', 'Qazsport'), ('⛹🏿Спортивные+Реклама', 'Sport 1 Baltic'),
@@ -63,11 +60,9 @@ CONFIGS = [
             ('⛹🏿Спортивные+Реклама', 'Maincast кіберспорт'), ('⛹🏿Спортивные+Реклама', 'TV3 Sport LT'),
             ('⛹🏿Спортивные+Реклама', 'Equalympic'), ('⛹🏿Спортивные+Реклама', 'ОККО Спорт'),
             ('⛹🏿Спортивные+Реклама', 'ОККО Футбол'), ('⛹🏿Спортивные+Реклама', 'ОККО Прайм Спорт'),
-            # --- Детские и Музыкальные ---
             ('🧒Детские+Реклама', 'JimJam'), ('🧒Детские+Реклама', 'Піксель'),
             ('🎶Музыкальные+Реклама', 'М1'), ('🎶Музыкальные+Реклама', 'М2'),
             ('🎶Музыкальные+Реклама', 'Europa Plus TV'), ('🎶Музыкальные+Реклама', 'Музвар'),
-            # --- Провайдеры и VPN ---
             ('Internet42 LLC', 'ТНТ4'), ('Internet42 LLC', 'Театр'), ('Internet42 LLC', 'Телекафе'),
             ('Internet42 LLC', 'Cartoon Network'), ('Uplink (VPN)', 'Живи'),
             ('Turon Media (VPN)', 'Discovery Science'), ('Turon Media (VPN)', 'ТНТ Music'),
@@ -119,10 +114,20 @@ CONFIGS = [
             "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
         ],
         "target_groups": [
-            'group-title="Жизнь на нашей планете (2023)"'  # <-- Исправлена закрывающая кавычка
+            # Исправленные названия групп, которые реально есть в AVBVideo.m3u8
+            'group-title="Девяностые"',
+            'group-title="Следствие вели"',
+            'group-title="Тайны нашего кино"',
+            'group-title="Советские артисты"',
+            'Девяностые',
+            'Следствие вели',
+            'Тайны нашего кино',
+            'Советские артисты'
         ],
         "group_renames": {},
-        # exclude_channels и exclude_keywords можно смело оставлять закомментированными
+        "exclude_channels": [],
+        "exclude_url_keywords": [],
+        "exclude_keywords": []
     },
     {
         "output_file": "AVBcartoon.m3u",
@@ -131,11 +136,16 @@ CONFIGS = [
             "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
         ],
         "target_groups": [
-            'group-title="ТОМ И ДЖЕРРИ"',
-            'group-title="Наши Мультфильмы"'
+            # Исправленные названия групп, которые реально есть в AVBCartoon.m3u8
+            'group-title="🐺🐰Ну Погоди!"',
+            'group-title="👶Наши Мультфильмы"',
+            '🐺🐰Ну Погоди!',
+            '👶Наши Мультфильмы'
         ],
         "group_renames": {},
-        # exclude_channels и exclude_keywords можно смело оставлять закомментированными
+        "exclude_channels": [],
+        "exclude_url_keywords": [],
+        "exclude_keywords": []
     }
 ]
 
@@ -153,94 +163,3 @@ for config in CONFIGS:
         try:
             with urllib.request.urlopen(req) as response:
                 text = response.read().decode('utf-8', errors='ignore')
-        except Exception as e:
-            print(f"  ❌ Ошибка скачивания {url}: {e}")
-            continue
-        
-        lines = text.split('\n')
-        current_block = []
-        current_group = ""
-        is_target = False
-        
-        for line in lines:
-            clean = line.strip()
-            if not clean:
-                continue
-            
-            if clean.startswith('#EXTINF'):
-                current_block = [clean]
-                current_group = ""
-                
-                if 'group-title="' in clean:
-                    start = clean.find('group-title="') + len('group-title="')
-                    end = clean.find('"', start)
-                    current_group = clean[start:end]
-                
-                is_target = any(group in clean for group in config["target_groups"])
-                if current_group and any(current_group in target for target in config["target_groups"]):
-                    is_target = True
-                
-                if current_group in config["group_renames"]:
-                    new_group = config["group_renames"][current_group]
-                    current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group}"')
-                    current_group = new_group
-            
-            elif clean.startswith('#EXTGRP:'):
-                group_name = clean.replace('#EXTGRP:', '').strip()
-                
-                if group_name in config["group_renames"]:
-                    group_name = config["group_renames"][group_name]
-                
-                if any(group_name in target or f'group-title="{group_name}"' in target for target in config["target_groups"]):
-                    is_target = True
-                
-                current_group = group_name
-                
-                if len(current_block) > 0 and ',' in current_block[0]:
-                    tag, name = current_block[0].split(',', 1)
-                    tag = tag.replace('#EXTINF:0', '#EXTINF:-1').replace('#EXTINF:1', '#EXTINF:-1')
-                    current_block[0] = f'{tag} group-title="{group_name}",{name}'
-                
-                continue
-            
-            elif is_target:
-                current_block.append(clean)
-                if clean.startswith('http://') or clean.startswith('https://'):
-                    block_text = " ".join(current_block).lower()
-                    channel_name = current_block[0].split(',')[-1].strip()
-                    
-                    # 🛡️ БЕЗОПАСНАЯ ПРОВЕРКА: используем .get("ключ", [])
-                    # Если ключ закомментирован, скрипт возьмет пустой список [] и не выдаст ошибку
-                    
-                    # 1. Проверка ключевых слов
-                    if any(kw.lower() in block_text for kw in config.get("exclude_keywords", [])):
-                        is_target = False
-                        continue
-                    
-                    # 2. Проверка запрещенных URL
-                    if any(kw.lower() in clean for kw in config.get("exclude_url_keywords", [])):
-                        is_target = False
-                        continue
-                    
-                    # 3. Проверка точечных исключений каналов
-                    if any(current_group == grp and channel_name == ch for grp, ch in config.get("exclude_channels", [])):
-                        is_target = False
-                        continue
-                    
-                    # 4. Проверка дубликатов
-                    normalized_url = clean.replace('http://', 'https://')
-                    if normalized_url in seen_urls:
-                        is_target = False
-                        continue
-                    
-                    seen_urls.add(normalized_url)
-                    result.extend(current_block)
-                    is_target = False
-    
-    with open(config["output_file"], 'w', encoding='utf-8') as f:
-        f.write('\n'.join(result))
-    
-    unique_count = len([line for line in result if line.startswith('#EXTINF')])
-    print(f"  ✅ Готово! В файл {config['output_file']} добавлено уникальных каналов: {unique_count}")
-
-print("\n🎉 Все плейлисты успешно обновлены!")
