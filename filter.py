@@ -179,8 +179,7 @@ CONFIGS = [
         ],
         # "exclude_url_keywords": [],
         # "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
-    }
-]
+    },
     {
         "output_file": "AVBcartoon.m3u",
         "sources": [
@@ -199,7 +198,7 @@ CONFIGS = [
         # "exclude_url_keywords": [],
         # "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     }
-
+]
 for config in CONFIGS:
     print(f"\n{'='*50}")
     print(f"🚀 Начинаем сборку: {config['output_file']}")
