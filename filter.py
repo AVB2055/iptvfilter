@@ -130,11 +130,10 @@ CONFIGS = [
             ('Квант-Телеком (VPN 🇷🇺)', 'МУЛЬТ'),
             ('Квант-Телеком (VPN 🇷🇺)', 'Aiva')
         ],
-        # 🆕 Блокировка по части URL (домен или IP)
         "exclude_url_keywords": [
-            "primer.primer.ru",
-            "31.210.208.171:8080"
-         ],
+            "stream8.cinerama.uz",
+            "185.46.16.239"
+        ],
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     },
     {
@@ -196,28 +195,47 @@ for config in CONFIGS:
             
             if clean.startswith('#EXTINF'):
                 current_block = [clean]
-                is_target = any(group in clean for group in config["target_groups"])
                 current_group = ""
+                
+                # Проверяем, есть ли уже группа в строке #EXTINF
                 if 'group-title="' in clean:
                     start = clean.find('group-title="') + len('group-title="')
                     end = clean.find('"', start)
                     current_group = clean[start:end]
                 
+                # Проверяем, является ли канал целевым
+                is_target = any(group in clean for group in config["target_groups"])
+                if current_group and any(current_group in target for target in config["target_groups"]):
+                    is_target = True
+                
+                # Переименование, если группа уже была в #EXTINF
                 if current_group in config["group_renames"]:
                     new_group = config["group_renames"][current_group]
                     current_block[0] = current_block[0].replace(f'group-title="{current_group}"', f'group-title="{new_group}"')
                     current_group = new_group
             
             elif clean.startswith('#EXTGRP:'):
-                current_group = clean.replace('#EXTGRP:', '').strip()
-                is_target = any(current_group in target or f'group-title="{current_group}"' in target for target in config["target_groups"])
+                # === НОВАЯ ЛОГИКА: Объединение #EXTGRP с #EXTINF ===
+                group_name = clean.replace('#EXTGRP:', '').strip()
                 
-                if current_group in config["group_renames"]:
-                    new_group = config["group_renames"][current_group]
-                    clean = f'#EXTGRP:{new_group}'
-                    current_group = new_group
+                # Применяем переименование
+                if group_name in config["group_renames"]:
+                    group_name = config["group_renames"][group_name]
                 
-                current_block.append(clean)
+                # Обновляем статус is_target на основе новой группы
+                if any(group_name in target or f'group-title="{group_name}"' in target for target in config["target_groups"]):
+                    is_target = True
+                
+                current_group = group_name
+                
+                # Встраиваем группу в строку #EXTINF (разбиваем по первой запятой)
+                if len(current_block) > 0 and ',' in current_block[0]:
+                    tag, name = current_block[0].split(',', 1)
+                    # Приводим тег к универсальному виду #EXTINF:-1
+                    tag = tag.replace('#EXTINF:0', '#EXTINF:-1').replace('#EXTINF:1', '#EXTINF:-1')
+                    current_block[0] = f'{tag} group-title="{group_name}",{name}'
+                
+                # Пропускаем добавление отдельной строки #EXTGRP: в итоговый файл
                 continue
             
             elif is_target:
@@ -226,12 +244,12 @@ for config in CONFIGS:
                     block_text = " ".join(current_block).lower()
                     channel_name = current_block[0].split(',')[-1].strip()
                     
-                    # 1. Проверка ключевых слов в названии/группе
+                    # 1. Проверка ключевых слов
                     if any(kw.lower() in block_text for kw in config["exclude_keywords"]):
                         is_target = False
                         continue
                     
-                    # 2. 🆕 Проверка запрещенных URL (домен или IP)
+                    # 2. Проверка запрещенных URL
                     if any(kw.lower() in clean for kw in config.get("exclude_url_keywords", [])):
                         is_target = False
                         continue
