@@ -164,7 +164,43 @@ CONFIGS = [
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
     }
 ]
-
+    {
+        "output_file": "AVBvideo.m3u",
+        "sources": [
+            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBVideo.m3u8",
+            "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
+        ],
+        "target_groups": [
+            'group-title="Жизнь на нашей планете (2023)'        
+        ],
+        "group_renames": {},
+        "exclude_channels": [
+            # ('Новинки кино', '🔺 INFO 🔺Посмотри!!!'),            
+            # ('Фильмы', 'Про Красную шапочку (1977)')
+        ],
+        # "exclude_url_keywords": [],
+        # "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
+    }
+]
+    {
+        "output_file": "AVBcartoon.m3u",
+        "sources": [
+            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCartoon.m3u8",
+            "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
+        ],
+        "target_groups": [
+            'group-title="ТОМ И ДЖЕРРИ"',
+            'group-title="Наши Мультфильмы"'
+        ],
+        "group_renames": {},
+        "exclude_channels": [
+            # ('Новинки кино', '🔺 INFO 🔺Посмотри!!!'),            
+            # ('Фильмы', 'Про Красную шапочку (1977)')
+        ],
+        # "exclude_url_keywords": [],
+        # "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
+    }
+]
 for config in CONFIGS:
     print(f"\n{'='*50}")
     print(f"🚀 Начинаем сборку: {config['output_file']}")
