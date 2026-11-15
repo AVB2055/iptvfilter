@@ -8,25 +8,25 @@ https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a
 #EXTINF:-1 group-title="🇷🇺Федеральные",НТВ
 https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,Пятый Канал
-http://31.131.141.195:8000/play/1050/index.m3u8
+https://flussonic.mkpnet.ru/tv-a5ff8c7a86c8b951/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,Россия К
-http://31.131.141.195:8000/play/1060/index.m3u8
+https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные",Россия 24
 https://live.smotrim.ru/vgtrk/0/russia24-hd/1080p.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,Карусель
-http://31.131.141.195:8000/play/1080/index.m3u8
+https://flussonic.mkpnet.ru/tv-132f51b35b47b897/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные",ОТР
 https://bl.rutube.ru/livestream/faa934385b83f9e8a92f5484defae5fa/index.m3u8?s=CFlEl7z6OslQkX3XQDlvsQ&e=2093306701&scheme=https
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,ТВЦ
-http://31.131.141.195:8000/play/1100/index.m3u8
+https://flussonic.mkpnet.ru/tv-b76bb5b80615eed6/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,Рен ТВ
 https://flussonic.mkpnet.ru/tv-44dfec2799c5738e/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные",СПАС
 https://bl.rutube.ru/livestream/2bbfa9ebf9d79ade480d7281fcef1008/index.m3u8?s=Dh7uOoGZBCslhSfLLkxvAg&e=2068506963&scheme=https
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,СТС
-http://31.131.141.195:8000/play/2030/index.m3u8
+https://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные" ,Домашний
-http://31.131.141.195:8000/play/a001/index.m3u8
+https://flussonic.mkpnet.ru/tv-b515ccce67923f8a/video.m3u8
 #EXTINF:-1 group-title="🇷🇺Федеральные",ТВ3
 https://bl.rutube.ru/livestream/7bf12d9c050f9a7ef3728db5730432ae/index.m3u8?s=riJeRs_4YONNBUd3HTYJXg&e=2068506933&scheme=https
 #EXTINF:-1 group-title="🇷🇺Федеральные",Пятница
@@ -929,8 +929,6 @@ https://flussonic.mkpnet.ru/tv-4f9598ab5f91dca4/video.m3u8
 https://flussonic.mkpnet.ru/tv-d696bdfd6a0e4373/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Россия 24
 https://flussonic.mkpnet.ru/tv-6c5b49dbcf811fc6/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",Россия К
-https://flussonic.mkpnet.ru/tv-111deaa2142146ee/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",НТВ
 https://flussonic.mkpnet.ru/tv-1bc5d712ea5ace74/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",ТНТ4
@@ -967,8 +965,6 @@ https://flussonic.mkpnet.ru/tv-c385ec3bab3a3605/video.m3u8
 https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Vip Premiere
 https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",Домашний
-https://flussonic.mkpnet.ru/tv-b515ccce67923f8a/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Жара
 https://flussonic.mkpnet.ru/tv-3cdc33d3606ba23f/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Живи Активно
@@ -997,8 +993,6 @@ https://flussonic.mkpnet.ru/tv-b9ddf7deb3d25757/video.m3u8
 https://flussonic.mkpnet.ru/tv-a5fa84789fc4add5/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",RTД
 https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",Пятый канал
-https://flussonic.mkpnet.ru/tv-a5ff8c7a86c8b951/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",8 Канал
 https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Лад
@@ -1015,14 +1009,10 @@ https://flussonic.mkpnet.ru/tv-c922a9201f5073f8/video.m3u8
 https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Продвижение
 https://flussonic.mkpnet.ru/tv-86cc4bfff941b275/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",СТС
-https://flussonic.mkpnet.ru/tv-9cb92ea0862cd7b0/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",СТС Love
 https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Суббота
 https://flussonic.mkpnet.ru/tv-2e0a7cc949958b60/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",ТВЦ
-https://flussonic.mkpnet.ru/tv-b76bb5b80615eed6/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Точка Отрыва
 https://flussonic.mkpnet.ru/tv-025f6f42ae5bcfc6/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Точка ТВ
@@ -1039,8 +1029,6 @@ https://flussonic.mkpnet.ru/tv-c8b065a591077c26/video.m3u8
 https://flussonic.mkpnet.ru/tv-319cadb3fff5fb3e/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Gulli Girl
 https://flussonic.mkpnet.ru/tv-d66fcf59f2f4c966/video.m3u8
-#EXTINF:-1 group-title="Оргтехсервис (VPN)",Карусель
-https://flussonic.mkpnet.ru/tv-132f51b35b47b897/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",Мультиландия
 https://flussonic.mkpnet.ru/tv-89530153f25733fe/video.m3u8
 #EXTINF:-1 group-title="Оргтехсервис (VPN)",СТС Kids
