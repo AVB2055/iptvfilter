@@ -135,7 +135,7 @@ CONFIGS = [
             'group-title="ТОМ И ДЖЕРРИ"',
             'group-title="Наши Мультфильмы"',
             'group-title="🐺🐰Ну Погоди!"',
-            'group-title="👶Наши Мультфильмы"'
+            'group-title="👶Наши Мультфильмы"',
             'Мультфильмы'
         ],
         "group_renames": {},
