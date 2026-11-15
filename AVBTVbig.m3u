@@ -55,8 +55,6 @@ http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/track
 https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 #EXTINF:-1 group-title="👁Информационные",DW Russia [СМИ иноагент]
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
-#EXTINF:-1 group-title="👁Информационные",EuroNews [СМИ иноагент]
-https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="👁Информационные",News Front TV
 https://tv.2kita.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVBRICSRussian.ru@" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="👁Информационные",TV BRICS Russian
@@ -117,6 +115,8 @@ https://stream.smotrim.ru/hls2/doverie/playlist_3.m3u8
 https://cdn-dvr.ntv.ru/sledstvie/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-1 tvg-id="NTVStyle.ru@" tvg-logo="https://i.imgur.com/rX6K6qT.png" group-title="🔎‍Познавательные",НТВ Стиль
 https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="🔎‍Познавательные" ,Наша Тема
+http://31.210.208.171:8080/nasha_tema/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="UnknownRussia.ru@HD" tvg-logo="https://i.imgur.com/W7ste2f.png" group-title="🔎‍Познавательные",Неизвестная Россия HD
 http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
 #EXTINF:-1 group-title="🔎‍Познавательные",Открытый Мир
@@ -237,8 +237,6 @@ https://cdn-dvr.ntv.ru/Shef/tracks-v1a1/rewind-240.ts.m3u8
 https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы",Ретро
 http://176.118.197.101/Retro/mono.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы",Русский Иллюзион
-http://185.46.16.239:8000/Russkiy_Illyuzion
 #EXTINF:-1 tvg-logo="http://kinowalk.hopto.org/static-content/logo/126?unique=2026-02-20+01%3A57%3A49.533570&access_token=2a7cd4ef-01dc-448f-9d01-128118de1baa" group-title="🎬Kinowalk TV  Not 24-7" ,Blockbusters Time 🎦-🌕
 https://kinowalk.hopto.org/blockbusterstime_live
 #EXTINF:-1 tvg-logo="http://kinowalk.hopto.org/static-content/logo/123?unique=2026-07-25+14%3A22%3A30.153830&access_token=4c53055d-6634-4781-a1e5-8be0b7bc16c6" group-title="🎬Kinowalk TV  Not 24-7" ,MovieToper 🎦-️🌕
@@ -475,620 +473,415 @@ https://kinowalk.hopto.org/kinoteka_full_hd_top_live
 https://kinowalk.hopto.org/kinofon_live
 #EXTINF:-1 tvg-logo="http://kinowalk.hopto.org/static-content/logo/397?unique=2026-09-26+12%3A23%3A29.559068&access_token=a790e444-cc11-40ea-9c11-056bd845b688" group-title="🎬Kinowalk TV  Not 24-7" ,STRIMACH 🧒-🌑
 http://kinowalk.hopto.org/strimach_live
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",ТВ3
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",ТВ3
 http://stream.mcquack.net/136/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Пятница!
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Пятница!
 http://stream.mcquack.net/181/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Суббота!
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Суббота!
 http://stream.mcquack.net/269/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Ю
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Ю
 http://stream.mcquack.net/230/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",2х2
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",2х2
 http://stream.mcquack.net/187/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Перец International
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Перец International
 http://stream.mcquack.net/121/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Fashion World
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Fashion World
 http://stream.mcquack.net/287/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Fashion ONE
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Fashion ONE
 http://stream.mcquack.net/119/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Сарафан
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Сарафан
 http://stream.mcquack.net/81/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Вопросы и ответы
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Вопросы и ответы
 http://stream.mcquack.net/76/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",ТНТ
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",ТНТ
 http://stream.mcquack.net/135/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",ТНТ4
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",ТНТ4
 http://stream.mcquack.net/106/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",СТС
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",СТС
 http://stream.mcquack.net/138/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",СТС Love
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",СТС Love
 http://stream.mcquack.net/183/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Домашний
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Домашний
 http://stream.mcquack.net/227/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",Телекафе
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",Телекафе
 http://stream.mcquack.net/314/index.m3u8
-#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7",ECO TV
-#EXTGRP:🤣Развлекательные+Реклама
+#EXTINF:-1 group-title="🤣Развлекательные+Реклама" tvg-rec="7" timeshift="7" group-title="🤣Развлекательные+Реклама",ECO TV
 http://stream.mcquack.net/222/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Discovery
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Discovery
 http://stream.mcquack.net/177/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Investigation Discovery
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Investigation Discovery
 http://stream.mcquack.net/205/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",National Geographic
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",National Geographic
 http://stream.mcquack.net/116/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Nat Geo Wild
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Nat Geo Wild
 http://stream.mcquack.net/149/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",TLC
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",TLC
 http://stream.mcquack.net/168/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Animal Planet
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Animal Planet
 http://stream.mcquack.net/114/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",RAZ 1
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",RAZ 1
 http://stream.mcquack.net/463/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",RAZ 2
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",RAZ 2
 http://stream.mcquack.net/464/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Глазами Туриста
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Глазами Туриста
 http://stream.mcquack.net/304/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Живи Активно
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Живи Активно
 http://stream.mcquack.net/132/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Наука 2.0
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Наука 2.0
 http://stream.mcquack.net/125/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Культура
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Культура
 http://stream.mcquack.net/229/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",В мире животных
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",В мире животных
 http://stream.mcquack.net/241/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Мама
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Мама
 http://stream.mcquack.net/79/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Доктор
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Доктор
 http://stream.mcquack.net/80/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Da Vinci
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Da Vinci
 http://stream.mcquack.net/238/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Viju Explore
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Viju Explore
 http://stream.mcquack.net/239/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Viju+ Planet
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Viju+ Planet
 http://stream.mcquack.net/240/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Viju History
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Viju History
 http://stream.mcquack.net/101/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Соль ТВ
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Соль ТВ
 http://stream.mcquack.net/398/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Чемодан ТВ
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Чемодан ТВ
 http://stream.mcquack.net/399/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Фауна
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Фауна
 http://stream.mcquack.net/401/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",365 дней ТВ
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",365 дней ТВ
 http://stream.mcquack.net/70/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Моя планета
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Моя планета
 http://stream.mcquack.net/124/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",RTG
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",RTG
 http://stream.mcquack.net/164/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Приключения
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Приключения
 http://stream.mcquack.net/198/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Travel channel
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Travel channel
 http://stream.mcquack.net/231/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Travel+Adventure
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Travel+Adventure
 http://stream.mcquack.net/206/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Охота и рыбалка
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Охота и рыбалка
 http://stream.mcquack.net/155/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Охотник и рыболов
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Охотник и рыболов
 http://stream.mcquack.net/194/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Диалоги о рыбалке
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Диалоги о рыбалке
 http://stream.mcquack.net/264/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Дикая Охота
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Дикая Охота
 http://stream.mcquack.net/274/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Дикая Рыбалка
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Дикая Рыбалка
 http://stream.mcquack.net/275/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Explorers
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Explorers
 http://stream.mcquack.net/450/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Travel XP
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Travel XP
 http://stream.mcquack.net/451/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",OstWest24
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",OstWest24
 http://stream.mcquack.net/455/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Continent E
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Continent E
 http://stream.mcquack.net/449/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",One Planet
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",One Planet
 http://stream.mcquack.net/448/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Усадьба
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Усадьба
 http://stream.mcquack.net/211/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Живая природа
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Живая природа
 http://stream.mcquack.net/225/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Живая планета
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Живая планета
 http://stream.mcquack.net/83/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Кухня ТВ
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Кухня ТВ
 http://stream.mcquack.net/179/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Food Time
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Food Time
 http://stream.mcquack.net/216/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Food Network
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Food Network
 http://stream.mcquack.net/298/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Авто24
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Авто24
 http://stream.mcquack.net/78/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Авто Плюс
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Авто Плюс
 http://stream.mcquack.net/186/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Моя стихия
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Моя стихия
 http://stream.mcquack.net/141/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Точка
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Точка
 http://stream.mcquack.net/161/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Insight TV
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Insight TV
 http://stream.mcquack.net/361/index.m3u8
-#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7",Cineman Relax 4K
-#EXTGRP:🔎‍Познавательные+Реклама
+#EXTINF:-1 group-title="🔎‍Познавательные+Реклама" tvg-rec="7" timeshift="7" group-title="🔎‍Познавательные+Реклама",Cineman Relax 4K
 http://stream.mcquack.net/459/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Кинокомедия
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Кинокомедия
 http://stream.mcquack.net/265/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Киносемья
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Киносемья
 http://stream.mcquack.net/170/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Киносвидание
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Киносвидание
 http://stream.mcquack.net/171/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Кинохит
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Кинохит
 http://stream.mcquack.net/126/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Киномикс
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Киномикс
 http://stream.mcquack.net/133/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Родное кино
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Родное кино
 http://stream.mcquack.net/242/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Индийское кино
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Индийское кино
 http://stream.mcquack.net/104/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Мужское кино
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Мужское кино
 http://stream.mcquack.net/107/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Киноужас
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Киноужас
 http://stream.mcquack.net/278/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Viju TV 1000
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Viju TV 1000
 http://stream.mcquack.net/110/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Viju TV 1000 Action
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Viju TV 1000 Action
 http://stream.mcquack.net/100/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Viju+ Premiere
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Viju+ Premiere
 http://stream.mcquack.net/202/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Viju+ Megahit
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Viju+ Megahit
 http://stream.mcquack.net/200/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Viju+ Comedy
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Viju+ Comedy
 http://stream.mcquack.net/201/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Viju+ Serial
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Viju+ Serial
 http://stream.mcquack.net/311/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Комедийное
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Комедийное
 http://stream.mcquack.net/74/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Amedia Premium
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Amedia Premium
 http://stream.mcquack.net/151/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Amedia 1
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Amedia 1
 http://stream.mcquack.net/117/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Amedia Hit
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Amedia Hit
 http://stream.mcquack.net/162/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Роман
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Роман
 http://stream.mcquack.net/266/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Бестселлер
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Бестселлер
 http://stream.mcquack.net/208/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Детектив
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Детектив
 http://stream.mcquack.net/204/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Комедия
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Комедия
 http://stream.mcquack.net/68/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",KinoKazka
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",KinoKazka
 http://stream.mcquack.net/167/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",black
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",black
 http://stream.mcquack.net/263/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Время
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Время
 http://stream.mcquack.net/237/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",red
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",red
 http://stream.mcquack.net/69/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",sci-fi
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",sci-fi
 http://stream.mcquack.net/180/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Наше
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Наше
 http://stream.mcquack.net/217/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Душевное
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Душевное
 http://stream.mcquack.net/213/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",КиноТВ
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",КиноТВ
 http://stream.mcquack.net/221/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Кинопоказ
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Кинопоказ
 http://stream.mcquack.net/64/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",НСТ
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",НСТ
 http://stream.mcquack.net/207/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Еврокино
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Еврокино
 http://stream.mcquack.net/385/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fox
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fox
 http://stream.mcquack.net/182/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fox Life
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fox Life
 http://stream.mcquack.net/129/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",ТВ XXI
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",ТВ XXI
 http://stream.mcquack.net/152/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Plan B
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Plan B
 http://stream.mcquack.net/196/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Остросюжетное
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Остросюжетное
 http://stream.mcquack.net/214/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Дом Кино
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Дом Кино
 http://stream.mcquack.net/236/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Дом Кино Премиум
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Дом Кино Премиум
 http://stream.mcquack.net/108/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Hollywood
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Hollywood
 http://stream.mcquack.net/268/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",НТВ Сериал
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",НТВ Сериал
 http://stream.mcquack.net/301/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",24Техно
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",24Техно
 http://stream.mcquack.net/209/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Наше мужское
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Наше мужское
 http://stream.mcquack.net/362/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Блокбастер
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Блокбастер
 http://stream.mcquack.net/364/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Start Air
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Start Air
 http://stream.mcquack.net/128/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Kino 1
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Kino 1
 http://stream.mcquack.net/395/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Kino 2
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Kino 2
 http://stream.mcquack.net/465/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Твій Серіал
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Твій Серіал
 http://stream.mcquack.net/466/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Шокирующее
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Шокирующее
 http://stream.mcquack.net/75/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Хит
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Хит
 http://stream.mcquack.net/363/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Enter-фільм
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Enter-фільм
 http://stream.mcquack.net/322/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",BCU
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",BCU
 http://stream.mcquack.net/488/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Мосфильм. Золотая коллекция
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Мосфильм. Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Премиальное
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Премиальное
 http://stream.mcquack.net/421/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Ретро
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Ретро
 http://stream.mcquack.net/191/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fan
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fan
 http://stream.mcquack.net/420/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Kinoliving
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Kinoliving
 http://stream.mcquack.net/445/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Kinowood
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Kinowood
 http://stream.mcquack.net/446/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Kinosweet
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Kinosweet
 http://stream.mcquack.net/447/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Наше любимое кино
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Наше любимое кино
 http://stream.mcquack.net/456/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Дорама
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Дорама
 http://stream.mcquack.net/412/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",CineMan
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",CineMan
 http://stream.mcquack.net/349/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",CineMan Top
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",CineMan Top
 http://stream.mcquack.net/350/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Cineman Катастрофы
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Cineman Катастрофы
 http://stream.mcquack.net/471/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Cineman Мелодрама
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Cineman Мелодрама
 http://stream.mcquack.net/472/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",CineMan Action
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",CineMan Action
 http://stream.mcquack.net/351/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",CineMan Thriller
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",CineMan Thriller
 http://stream.mcquack.net/352/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",CineMan Ужасы
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",CineMan Ужасы
 http://stream.mcquack.net/355/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",CineMan Comedy
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",CineMan Comedy
 http://stream.mcquack.net/356/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Cineman VHS
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Cineman VHS
 http://stream.mcquack.net/474/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Cineman Ментовские войны
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Cineman Ментовские войны
 http://stream.mcquack.net/477/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Cineman Лесник
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Cineman Лесник
 http://stream.mcquack.net/115/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Cineman MiniSeries
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Cineman MiniSeries
 http://stream.mcquack.net/122/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Rating
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Rating
 http://stream.mcquack.net/422/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Cinema
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Cinema
 http://stream.mcquack.net/423/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Premiere
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Premiere
 http://stream.mcquack.net/424/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Comedy
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Comedy
 http://stream.mcquack.net/426/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Family
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Family
 http://stream.mcquack.net/427/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh VHS
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh VHS
 http://stream.mcquack.net/428/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Fantastic
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Fantastic
 http://stream.mcquack.net/429/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Series
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Series
 http://stream.mcquack.net/430/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Horror
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Horror
 http://stream.mcquack.net/431/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Adventure
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Adventure
 http://stream.mcquack.net/432/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Romantic
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Romantic
 http://stream.mcquack.net/433/index.m3u8
-#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7",Fresh Thriller
-#EXTGRP:🎦📺Фильмы 🔹 Сериалы+Реклама
+#EXTINF:-1 group-title="🎦📺Фильмы 🔹 Сериалы+Реклама" tvg-rec="7" timeshift="7" group-title="🎦📺Фильмы 🔹 Сериалы+Реклама",Fresh Thriller
 http://stream.mcquack.net/434/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! Футбол 1
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! Футбол 1
 http://stream.mcquack.net/130/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! Футбол 2
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! Футбол 2
 http://stream.mcquack.net/142/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! Футбол 3
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! Футбол 3
 http://stream.mcquack.net/185/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! Игра
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! Игра
 http://stream.mcquack.net/188/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! СТРАНА
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! СТРАНА
 http://stream.mcquack.net/143/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! Арена
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! Арена
 http://stream.mcquack.net/163/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч ТВ
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч ТВ
 http://stream.mcquack.net/169/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч! Боец
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч! Боец
 http://stream.mcquack.net/112/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Матч Премьер
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Матч Премьер
 http://stream.mcquack.net/193/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Setanta Sports 1
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Setanta Sports 1
 http://stream.mcquack.net/234/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Setanta Sports 2
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Setanta Sports 2
 http://stream.mcquack.net/235/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",KHL ТВ
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",KHL ТВ
 http://stream.mcquack.net/166/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",KHL Prime
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",KHL Prime
 http://stream.mcquack.net/178/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Viju+ Sport
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Viju+ Sport
 http://stream.mcquack.net/333/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Бокс ТВ
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Бокс ТВ
 http://stream.mcquack.net/154/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Беларусь 5
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Беларусь 5
 http://stream.mcquack.net/33/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",Extreme Sports
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",Extreme Sports
 http://stream.mcquack.net/148/index.m3u8
-#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7",UDAR
-#EXTGRP:⛹🏿Спортивные+Реклама
+#EXTINF:-1 group-title="⛹🏿Спортивные+Реклама" tvg-rec="7" timeshift="7" group-title="⛹🏿Спортивные+Реклама",UDAR
 http://stream.mcquack.net/279/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Nickelodeon
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Nickelodeon
 http://stream.mcquack.net/443/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Nick Jr
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Nick Jr
 http://stream.mcquack.net/220/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Солнце
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Солнце
 http://stream.mcquack.net/118/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",TiJi
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",TiJi
 http://stream.mcquack.net/111/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Мульт
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Мульт
 http://stream.mcquack.net/232/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Мульт и музыка
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Мульт и музыка
 http://stream.mcquack.net/82/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Канал О!
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Канал О!
 http://stream.mcquack.net/60/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Капитан Фантастика
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Капитан Фантастика
 http://stream.mcquack.net/144/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Карусель
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Карусель
 http://stream.mcquack.net/120/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",СТС Kids
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",СТС Kids
 http://stream.mcquack.net/197/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",В гостях у сказки
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",В гостях у сказки
 http://stream.mcquack.net/93/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Gulli Girl
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Gulli Girl
 http://stream.mcquack.net/305/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Ani
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Ani
 http://stream.mcquack.net/306/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Fresh Kids
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Fresh Kids
 http://stream.mcquack.net/425/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Cartoons Short
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Cartoons Short
 http://stream.mcquack.net/347/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Cartoons Big
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Cartoons Big
 http://stream.mcquack.net/348/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Cineman Симпсоны
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Cineman Симпсоны
 http://stream.mcquack.net/476/index.m3u8
-#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7",Cartoons 90
-#EXTGRP:🧒Детские+Реклама
+#EXTINF:-1 group-title="🧒Детские+Реклама" tvg-rec="7" timeshift="7" group-title="🧒Детские+Реклама",Cartoons 90
 http://stream.mcquack.net/484/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Stingray CMusic
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Bridge deluxe
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Bridge deluxe
 http://stream.mcquack.net/92/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Bridge classic
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Bridge classic
 http://stream.mcquack.net/272/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Bridge
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Bridge
 http://stream.mcquack.net/318/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Bridge хит
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Bridge хит
 http://stream.mcquack.net/320/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Music Box
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Music Box
 http://stream.mcquack.net/319/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Inrating
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Inrating
 http://stream.mcquack.net/147/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Музыка Первого
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Музыка Первого
 http://stream.mcquack.net/153/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Муз ТВ
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Муз ТВ
 http://stream.mcquack.net/86/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Жара
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Жара
 http://stream.mcquack.net/386/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",RU TV
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",RU TV
 http://stream.mcquack.net/109/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Mezzo Live
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Mezzo Live
 http://stream.mcquack.net/276/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Stingray iConcerts
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Stingray iConcerts
 http://stream.mcquack.net/267/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",Ля-минор ТВ
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",Ля-минор ТВ
 http://stream.mcquack.net/303/index.m3u8
-#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7",ТНТ music
-#EXTGRP:🎶Музыкальные+Реклама
+#EXTINF:-1 group-title="🎶Музыкальные+Реклама" tvg-rec="7" timeshift="7" group-title="🎶Музыкальные+Реклама",ТНТ music
 http://stream.mcquack.net/317/index.m3u8
 #EXTINF:-1 group-title="Internet42 LLC", Россия 24
 http://176.118.197.101/Rossiya24/index.m3u8
@@ -1458,282 +1251,8 @@ https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv2
 https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="Turon Media (VPN)",Первый канал HD
 https://stream3.cinerama.uz/1214/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Первый канал
-https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",НТВ
-https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Россия К
-https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Россия 24
-https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Россия 1
-https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Техно 24
-https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Приключения
-https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Первый Космический
-https://stream8.cinerama.uz/1415/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Охотник и Рыболов HD
-https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Дикая охота HD
-https://stream8.cinerama.uz/1412/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turon Media (VPN)",Дикий
 https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Охота и Рыбалка
-https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Наша Сибирь
-https://stream8.cinerama.uz/1424/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Наука
-https://stream8.cinerama.uz/1248/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Моя Планета
-https://stream8.cinerama.uz/1247/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Живая Природа HD
-https://stream8.cinerama.uz/1411/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Глазами Туриста
-https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Вопросы и Ответы
-https://stream8.cinerama.uz/1429/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",В Мире Животных
-https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Viasat Nature
-https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Viasat History
-https://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Viasat Explore
-https://stream8.cinerama.uz/1045/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",NAT GEO WILD
-https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Animal Planet
-https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",National Geographic
-https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Insight TV HD
-https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Точка РФ
-https://stream8.cinerama.uz/1222/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",История
-https://stream8.cinerama.uz/1266/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Живая Планета
-https://stream8.cinerama.uz/1250/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Усадьба
-https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Точка Отрыва
-https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",ТВЦ
-https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Сарафан
-https://stream8.cinerama.uz/1249/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Ретро
-https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Мир 24
-https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Мир
-https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Кухня ТВ
-https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Кинопоказ
-https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Наше Новое Кино
-https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Родное Кино
-https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Кинохит
-https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Киносерия
-https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Киносемья
-https://stream8.cinerama.uz/1234/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Киносвидание
-https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Мужское кино
-https://stream8.cinerama.uz/1237/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Кинопремьера
-https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Киномикс
-https://stream8.cinerama.uz/1233/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Кинокомедия
-https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Индийское Кино
-https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Капитан Фантастика HD
-https://stream8.cinerama.uz/1406/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",VIP Serial
-https://stream8.cinerama.uz/1224/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",VIP Comedy
-https://stream8.cinerama.uz/1061/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",VIP Premiere
-https://stream8.cinerama.uz/1056/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",TV1000
-https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",TV1000 Русское Кино
-https://stream8.cinerama.uz/1059/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",TV1000 ACTION HD
-https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Bollywood
-https://stream8.cinerama.uz/1444/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Hollywood
-https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Зоопарк
-https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Здоровое ТВ
-https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Звезда
-https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Живи Активно HD
-https://stream8.cinerama.uz/1405/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Живи
-https://stream8.cinerama.uz/1419/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Драйв
-https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Дорама
-https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Домашние Животные
-https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Дом Кино
-https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Доктор
-https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Арсенал HD
-https://stream8.cinerama.uz/1414/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Авто Плюс
-https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Авто 24
-https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Казахстан 24
-https://stream8.cinerama.uz/1408/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Zor TV HD
-https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Yoshlar
-https://stream8.cinerama.uz/1002/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Uzbekiston
-https://stream8.cinerama.uz/1001/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Turan TV
-https://stream8.cinerama.uz/1261/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",TRT Muzik
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",TRT Haber
-https://stream8.cinerama.uz/1257/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",TRT Avaz
-https://stream8.cinerama.uz/1258/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Toshkent
-https://stream8.cinerama.uz/1003/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Taraqqiyot TV UZ
-https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Sevimili UZ
-https://stream8.cinerama.uz/1017/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Renessans TV UZ
-https://stream8.cinerama.uz/1221/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Qasaqstan
-https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Ozbekiston Tarixi HD UZ
-https://stream8.cinerama.uz/1209/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Uzbekistan 24
-https://stream8.cinerama.uz/1011/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Nurafshon TV UZ
-https://stream8.cinerama.uz/1220/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Ntv UZ
-https://stream8.cinerama.uz/1284/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Navo
-https://stream8.cinerama.uz/1008/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",NHK World Japan
-https://stream8.cinerama.uz/1449/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Myday TV
-https://stream8.cinerama.uz/1265/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",My5 UZ
-https://stream8.cinerama.uz/1217/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Milliy TV UZ
-https://stream8.cinerama.uz/1014/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Mening Yurtim FHD UZ
-https://stream8.cinerama.uz/1012/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Mahalla
-https://stream8.cinerama.uz/1013/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Madaniyat va marifat
-https://stream8.cinerama.uz/1005/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Lux TV
-https://stream8.cinerama.uz/1210/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Kinoteatr
-https://stream8.cinerama.uz/1009/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",KBS WORLD
-https://stream8.cinerama.uz/1448/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Istiqlol TV
-https://stream8.cinerama.uz/1283/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",France 24
-https://stream8.cinerama.uz/1241/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Fox News
-https://stream8.cinerama.uz/1252/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Foreign Languages UZ
-https://stream8.cinerama.uz/1010/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Fashion TV
-https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",English Club
-https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Dunyo bo`ylab UZ
-https://stream8.cinerama.uz/1006/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",CNN
-https://stream8.cinerama.uz/1259/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Cinema
-https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",CGTN
-https://stream8.cinerama.uz/1253/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Bolajon
-https://stream8.cinerama.uz/1007/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Bloomberg
-https://stream8.cinerama.uz/1255/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Biz Cinema UZ
-https://stream8.cinerama.uz/1213/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",BizTV HD UZ
-https://stream8.cinerama.uz/1211/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",BBC WORLD
-https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Aqlvoy TV UZ
-https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",8 Канал
-https://stream8.cinerama.uz/1262/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",365 Дней HD
-https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Duck TV
-https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Рыжий
-https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Мама
-https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Уникум
-https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Карусель
-https://stream8.cinerama.uz/1034/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Da Vinci
-https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Мультиландия
-https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Смайл ТВ
-https://stream8.cinerama.uz/1425/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Мульт
-https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",В Гостях У Сказки
-https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Nick Jr
-https://stream8.cinerama.uz/1501/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Nickelodeon
-https://stream8.cinerama.uz/1500/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Tiji
-https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Gulli Girl
-https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Музыка Первого
-https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Ля-Минор
-https://stream8.cinerama.uz/1238/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",СТВ  Музыка HD
-https://stream8.cinerama.uz/1018/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",МузТВ
-https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Муз ТВ UZ
-https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",RU.TV
-https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Turon Media (VPN)",Biz Music HD UZ
-https://stream8.cinerama.uz/1212/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Rutube (VPN)",Rutube TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=xHL1bpTtaTb5MmpcAFzUWA&e=2094686151&scheme=https
@@ -2232,3 +1751,183 @@ https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=pX
 #EXTINF:-1 group-title="Rutube (VPN)",Unbeaten
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=MCxB7s1dkR13l8Cd2gyhNQ&e=2094686269&scheme=https
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ПЕРВЫЙ КАНАЛ
+http://31.210.208.171:8080/1kanal/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РЕН ТВ
+http://31.210.208.171:8080/ren/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РОССИЯ 1
+http://31.210.208.171:8080/russia1/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РОССИЯ 24
+http://31.210.208.171:8080/russia24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НТВ
+http://31.210.208.171:8080/ntv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТНТ
+http://31.210.208.171:8080/tnt/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТНТ4
+http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Россия К
+http://31.210.208.171:8080/russiak/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ИСТОРИЯ
+http://31.210.208.171:8080/istoriya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Viasat Explore
+http://31.210.208.171:8080/viju_explore/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Viasat History
+http://31.210.208.171:8080/viju_history/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Загородная жизнь
+http://31.210.208.171:8080/zagorodnaya_zhizn/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Живая планета
+http://31.210.208.171:8080/zhivaya_planeta/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",2x2
+http://31.210.208.171:8080/2x2/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пятый канал
+http://31.210.208.171:8080/5kanal/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",FAN
+http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",RT
+http://31.210.208.171:8080/rt/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",SHOT TV
+http://31.210.208.171:8080/shottv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОМАШНИЙ
+http://31.210.208.171:8080/home/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ДОРАМА
+http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЕВРОКИНО
+http://31.210.208.171:8080/evrokino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЖАРА
+http://31.210.208.171:8080/jara/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЖИВИ
+http://31.210.208.171:8080/jivi/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЗВЕЗДА
+http://31.210.208.171:8080/zvezda/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНО ТВ
+http://31.210.208.171:8080/kinotv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОМИКС
+http://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КИНОУЖАС
+http://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НАШЕ НОВОЕ КИНО
+http://31.210.208.171:8080/nashe_novoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МИР
+http://31.210.208.171:8080/mir/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МИР 24 HD
+http://31.210.208.171:8080/mir24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МОСКВА 24
+http://31.210.208.171:8080/moskva_24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НОСТАЛЬГИЯ
+http://31.210.208.171:8080/nostalgiya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",НСТ
+http://31.210.208.171:8080/nst/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",о2тв
+http://31.210.208.171:8080/o2/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ОТР
+http://31.210.208.171:8080/otr/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",РБК
+http://31.210.208.171:8080/rbk/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",САРАФАН
+http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Cinema
+http://31.210.208.171:8080/cinema/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Дом кино
+http://31.210.208.171:8080/dom_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинеко HD
+http://31.210.208.171:8080/kineko/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киносемья
+http://31.210.208.171:8080/kinofamily/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинохит
+http://31.210.208.171:8080/kinohit/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киноман
+http://31.210.208.171:8080/kinoman/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кинокомедия
+http://31.210.208.171:8080/kinokomedia/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Киносвидание
+http://31.210.208.171:8080/kinosvidanie/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Комедия
+http://31.210.208.171:8080/komedia/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Любимое кино
+http://31.210.208.171:8080/lubimoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мосфильм. Золотая коллекция
+http://31.210.208.171:8080/mosfilm/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мужское кино
+http://31.210.208.171:8080/muzhskoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Родное кино
+http://31.210.208.171:8080/rodnoe_kino/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Русский роман
+http://31.210.208.171:8080/russian_roman/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Красная линия
+http://31.210.208.171:8080/krasnaya_liniya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СПАС
+http://31.210.208.171:8080/spas/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СТС
+http://31.210.208.171:8080/sts/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",360 HD
+http://31.210.208.171:8080/360_HD/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Авто 24
+http://31.210.208.171:8080/avto_24/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Авто Плюс
+http://31.210.208.171:8080/avto_plus/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кто есть кто
+http://31.210.208.171:8080/kto_est_kto/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Кухня ТВ
+http://31.210.208.171:8080/kuhnya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КВН ТВ
+http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Оружие
+http://31.210.208.171:8080/oruzhie/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пес и ко
+http://31.210.208.171:8080/pes_i_ko/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Пятница
+http://31.210.208.171:8080/piatnica/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Психология 21
+http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Время
+http://31.210.208.171:8080/vremya/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Ювелирочка
+http://31.210.208.171:8080/yuvelirochka/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Зоопарк
+http://31.210.208.171:8080/zoopark/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТВ3
+http://31.210.208.171:8080/tv3/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТВЦ
+http://31.210.208.171:8080/tvc/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ТЕЛЕКАФЕ
+http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ЧЕ
+http://31.210.208.171:8080/che/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Ю
+http://31.210.208.171:8080/u/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",ANI
+http://31.210.208.171:8080/ani/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СОЛНЦЕ
+http://31.210.208.171:8080/solnce/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мультимузыка
+http://31.210.208.171:8080/mult_i_muzika/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МУЛЬТ HD
+http://31.210.208.171:8080/mult_HD/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Мама
+http://31.210.208.171:8080/mama/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",КАРУСЕЛЬ
+http://31.210.208.171:8080/karusel/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",В гостях у сказки
+http://31.210.208.171:8080/v_gostyah_u_skazki/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",TIJI
+http://31.210.208.171:8080/tiji/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МузТВ
+http://31.210.208.171:8080/muztv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",RU.TV
+http://31.210.208.171:8080/ru_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Арена
+http://31.210.208.171:8080/match_arena/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",МАТЧ! ИГРА
+http://31.210.208.171:8080/match_igra/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Боец
+http://31.210.208.171:8080/match_boec/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",Матч! Страна
+http://31.210.208.171:8080/match_strana/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",MMA-TV.COM
+http://31.210.208.171:8080/mma_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",KHL
+http://31.210.208.171:8080/khl/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",БОКС ТВ
+http://31.210.208.171:8080/box_tv/index.m3u8?token=+W2MSER
+#EXTINF:-1 group-title="Квант-Телеком (VPN 🇷🇺)",СТАРТ HD
+http://31.210.208.171:8080/start/index.m3u8?token=+W2MSER
