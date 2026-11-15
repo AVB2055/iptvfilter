@@ -133,12 +133,14 @@ CONFIGS = [
         ],
         "target_groups": [
             'group-title="ТОМ И ДЖЕРРИ"',
-            'group-title="Наши Мультфильмы"',
             'group-title="🐺🐰Ну Погоди!"',
+            'group-title="Наши Мультфильмы"',
             'group-title="👶Наши Мультфильмы"',
-            'Мультфильмы'
+            'group-title="Мультфильмы"'
         ],
-        "group_renames": {},
+        "group_renames": {
+            "Наши Мультфильмы": "👶Наши Мультфильмы"
+        },
         "exclude_channels": [],
         "exclude_url_keywords": [],
         "exclude_keywords": []
