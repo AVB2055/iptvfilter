@@ -91,7 +91,7 @@ CONFIGS = [
             'group-title="Films_4k"',
             'group-title="Фильмы"',
             'group-title="Кино"',
-            'Кинофильмы'
+            'group-title="Кинофильмы"'
         ],
         "group_renames": {},
         "exclude_channels": [
@@ -118,10 +118,7 @@ CONFIGS = [
             'group-title="Следствие вели"',
             'group-title="Тайны нашего кино"',
             'group-title="Советские артисты"',
-            'Девяностые',
-            'Следствие вели',
-            'Тайны нашего кино',
-            'Советские артисты'
+            'group-title="Жизнь на нашей планете (2023)"'
         ],
         "group_renames": {},
         "exclude_channels": [],
@@ -135,10 +132,11 @@ CONFIGS = [
             "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
         ],
         "target_groups": [
+            'group-title="ТОМ И ДЖЕРРИ"',
+            'group-title="Наши Мультфильмы"',
             'group-title="🐺🐰Ну Погоди!"',
-            'group-title="👶Наши Мультфильмы"',
-            '🐺🐰Ну Погоди!',
-            '👶Наши Мультфильмы'
+            'group-title="👶Наши Мультфильмы"'
+            'Мультфильмы'
         ],
         "group_renames": {},
         "exclude_channels": [],
