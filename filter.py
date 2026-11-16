@@ -149,7 +149,12 @@ CONFIGS = [
         "exclude_keywords": ["ТОМ И ДЖЕРРИ"] # Добавлено сюда для гарантированного исключения каналов с таким названием
     }
 ]
-
+print("🔍 Проверка конфигурации...")
+for config in CONFIGS:
+    for item in config.get("exclude_channels", []):
+        if not isinstance(item, (list, tuple)) or len(item) != 2:
+            raise ValueError(f"❌ Ошибка в конфиге '{config['output_file']}': элемент exclude_channels должен быть кортежем/списком из 2 элементов. Получено: {item} (тип: {type(item)})")
+print("✅ Конфигурация валидна, ошибок формата нет.\n")
 for config in CONFIGS:
     print(f"\n{'='*50}")
     print(f"🚀 Начинаем сборку: {config['output_file']}")
