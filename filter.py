@@ -39,7 +39,8 @@ for config in CONFIGS:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         
         try:
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=30) as response:
+            # with urllib.request.urlopen(req) as response:
                 text = response.read().decode('utf-8', errors='ignore')
         except Exception as e:
             print(f"  ❌ Ошибка скачивания {url}: {e}")
