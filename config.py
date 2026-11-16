@@ -126,8 +126,7 @@ CONFIGS = [
     {
         "output_file": "AVBcartoon.m3u",
         "sources": [
-            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCartoon.m3u8",
-            "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
+            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCartoon.m3u8"
         ],
         "target_groups": [
             'group-title="🐺🐰Ну Погоди!"',
@@ -138,8 +137,11 @@ CONFIGS = [
         "group_renames": {
             "Наши Мультфильмы": "👶Наши Мультфильмы"
         },
+        "exclude_groups": [
+            "ТОМ И ДЖЕРРИ"  # <-- Теперь мы исключаем всю группу целиком
+        ],
         "exclude_channels": [],
         "exclude_url_keywords": [],
-        "exclude_keywords": ["ТОМ И ДЖЕРРИ"]
+        "exclude_keywords": [] # <-- Ключевые слова убрали, чтобы не зацепить лишнее
     }
 ]
