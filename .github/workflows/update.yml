@@ -1,30 +1,36 @@
-name: Update IPTV Playlist
+name: update iptv playlist
 
 on:
+  # Расписание автоматического запуска
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 20 * * *'  # Каждый день в 20:00 UTC (это 23:00 по Москве)
+    
+    # Если хотите добавить запасное время, просто добавьте еще одну строку.
+    # Например, дополнительное обновление в 11:00 по Москве (08:00 UTC):
+    # - cron: '0 8 * * *'   # Каждый день в 08:00 UTC (11:00 по Москве)
+    
+  # Возможность запустить вручную кнопкой в интерфейсе GitHub
   workflow_dispatch:
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
-      - name: Run filter script
+      - name: Run python filter.py
         run: python filter.py
 
-      - name: Auto Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto-update: playlists refreshed"
-          file_pattern: "*.m3u*"
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.m3u
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update IPTV playlists"
+          git push
