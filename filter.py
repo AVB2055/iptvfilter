@@ -132,7 +132,6 @@ CONFIGS = [
             "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
         ],
         "target_groups": [
-            'group-title="ТОМ И ДЖЕРРИ"',
             'group-title="🐺🐰Ну Погоди!"',
             'group-title="Наши Мультфильмы"',
             'group-title="👶Наши Мультфильмы"',
@@ -141,10 +140,22 @@ CONFIGS = [
         "group_renames": {
             "Наши Мультфильмы": "👶Наши Мультфильмы"
         },
+        "exclude_channels": [
+        ('group-title="ТОМ И ДЖЕРРИ"')
+        ],
+        "exclude_url_keywords": [],
+        "exclude_keywords": []
+     },
+        "output_file": "AVBmovix.m3u",
+        "sources": [
+            "http://iptvin.ru/p/?movix&ALRblv2055&1IarbvN62055"
+        ],
+        "target_groups": [],
+        "group_renames": {},
         "exclude_channels": [],
         "exclude_url_keywords": [],
         "exclude_keywords": []
-    }
+    }    
 ]
 
 for config in CONFIGS:
