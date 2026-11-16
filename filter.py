@@ -146,6 +146,7 @@ CONFIGS = [
         "exclude_url_keywords": [],
         "exclude_keywords": []
      },
+     {
         "output_file": "AVBmovix.m3u",
         "sources": [
             "http://iptvin.ru/p/?movix&ALRblv2055&1IarbvN62055"
