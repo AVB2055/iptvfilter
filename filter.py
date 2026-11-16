@@ -253,7 +253,6 @@ for config in CONFIGS:
     unique_count = len([line for line in result if line.startswith('#EXTINF')])
     # <--- ОБНОВЛЯЕМ ФИНАЛЬНЫЙ ОТЧЕТ
     print(f"  ✅ Готово! В файл {config['output_file']} добавлено уникальных каналов: {unique_count}")
-    if excluded_count > 0:
-        print(f"  🗑️ Отфильтровано (исключено или дубликатов): {excluded_count}")
+    print(f"  🗑️ Отфильтровано (исключено или дубликатов): {excluded_count}")
 
 print("\n🎉 Все плейлисты успешно обновлены!")
