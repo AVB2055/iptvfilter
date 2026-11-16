@@ -1,26 +1,26 @@
 name: update iptv playlist
 
 on:
-  # Расписание автоматического запуска
   schedule:
-    - cron: '0 20 * * *'  # Каждый день в 20:00 UTC (это 23:00 по Москве)
-    
-    # Если хотите добавить запасное время, просто добавьте еще одну строку.
-    # Например, дополнительное обновление в 11:00 по Москве (08:00 UTC):
-    # - cron: '0 8 * * *'   # Каждый день в 08:00 UTC (11:00 по Москве)
-    
-  # Возможность запустить вручную кнопкой в интерфейсе GitHub
-  workflow_dispatch:
+    - cron: '0 20 * * *'  # Каждый день в 20:00 UTC (23:00 по Москве)
+  workflow_dispatch:      # Ручной запуск
+
+# Явно запрашиваем права на запись
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -31,6 +31,14 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add *.m3u
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update IPTV playlists"
-          git push
+          
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "✅ Изменений в плейлистах нет, коммит не требуется."
+          else
+            echo "📝 Найдены изменения, создаем коммит..."
+            git commit -m "Auto-update IPTV playlists"
+            # Используем имя текущей ветки автоматически (main или master)
+            git push origin HEAD:${{ github.ref_name }}
+          fi
