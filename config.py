@@ -126,7 +126,8 @@ CONFIGS = [
     {
         "output_file": "AVBcartoon.m3u",
         "sources": [
-            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCartoon.m3u8"
+            "https://raw.githubusercontent.com/AVB2055/IPTV1/refs/heads/main/AVBCartoon.m3u8",
+            "https://raw.githubusercontent.com/Dimonovich/TV/refs/heads/Dimonovich/FREE/FILMS.m3u"
         ],
         "target_groups": [
             'group-title="🐺🐰Ну Погоди!"',
