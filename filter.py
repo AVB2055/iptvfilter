@@ -141,12 +141,14 @@ CONFIGS = [
             "Наши Мультфильмы": "👶Наши Мультфильмы"
         },
         "exclude_channels": [
-        ('group-title="ТОМ И ДЖЕРРИ"')
+            # ВАЖНО: Формат должен быть строго ('Название_группы', 'Название_канала')
+            # Если вы хотели исключить конкретный канал, используйте формат ниже (раскомментируйте):
+            # ('Мультфильмы', 'ТОМ И ДЖЕРРИ'),
         ],
         "exclude_url_keywords": [],
-        "exclude_keywords": []
-     },
-     {
+        "exclude_keywords": ["ТОМ И ДЖЕРРИ"] # Добавлено сюда для гарантированного исключения каналов с таким названием
+    },
+    {
         "output_file": "AVBmovix.m3u",
         "sources": [
             "http://iptvin.ru/p/?movix&ALRblv2055&1IarbvN62055"
@@ -171,7 +173,6 @@ for config in CONFIGS:
         print(f"  📥 Обработка источника: {url}")
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         
-        # ВАЖНО: Блок try-except должен быть именно таким, с правильными отступами
         try:
             with urllib.request.urlopen(req) as response:
                 text = response.read().decode('utf-8', errors='ignore')
