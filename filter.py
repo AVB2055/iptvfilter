@@ -64,6 +64,13 @@ for config in CONFIGS:
                     end = clean.find('"', start)
                     current_group = clean[start:end]
                 
+                # НОВАЯ ПРОВЕРКА: Если группа в черном списке, сразу пропускаем
+                if current_group in config.get("exclude_groups", []):
+                    is_target = False
+                    continue
+                
+                is_target = any(group in clean for group in config["target_groups"])
+                
                 is_target = any(group in clean for group in config["target_groups"])
                 if current_group and any(current_group in target for target in config["target_groups"]):
                     is_target = True
