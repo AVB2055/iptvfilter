@@ -147,18 +147,7 @@ CONFIGS = [
         ],
         "exclude_url_keywords": [],
         "exclude_keywords": ["ТОМ И ДЖЕРРИ"] # Добавлено сюда для гарантированного исключения каналов с таким названием
-    },
-    {
-        "output_file": "AVBmovix.m3u",
-        "sources": [
-            "http://iptvin.ru/p/?movix&ALRblv2055&1IarbvN62055"
-        ],
-        "target_groups": [],
-        "group_renames": {},
-        "exclude_channels": [],
-        "exclude_url_keywords": [],
-        "exclude_keywords": []
-    }    
+    }
 ]
 
 for config in CONFIGS:
