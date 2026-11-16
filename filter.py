@@ -151,17 +151,13 @@ CONFIGS = [
 ]
 print("🔍 Проверка конфигурации...")
 for config in CONFIGS:
-    for item in config.get("exclude_channels", []):
-        if not isinstance(item, (list, tuple)) or len(item) != 2:
-            raise ValueError(f"❌ Ошибка в конфиге '{config['output_file']}': элемент exclude_channels должен быть кортежем/списком из 2 элементов. Получено: {item} (тип: {type(item)})")
-print("✅ Конфигурация валидна, ошибок формата нет.\n")
-for config in CONFIGS:
     print(f"\n{'='*50}")
     print(f"🚀 Начинаем сборку: {config['output_file']}")
     print(f"{'='*50}")
     
     result = ["#EXTM3U"]
     seen_urls = set()
+    excluded_count = 0  # <--- ДОБАВЛЯЕМ ЭТУ СТРОКУ
     
     for url in config["sources"]:
         print(f"  📥 Обработка источника: {url}")
@@ -227,19 +223,23 @@ for config in CONFIGS:
                     channel_name = current_block[0].split(',')[-1].strip()
                     
                     if any(kw.lower() in block_text for kw in config.get("exclude_keywords", [])):
+                        excluded_count += 1  # <--- ДОБАВЛЯЕМ СЧЕТЧИК
                         is_target = False
                         continue
                     
                     if any(kw.lower() in clean for kw in config.get("exclude_url_keywords", [])):
+                        excluded_count += 1  # <--- ДОБАВЛЯЕМ СЧЕТЧИК
                         is_target = False
                         continue
                     
                     if any(current_group == grp and channel_name == ch for grp, ch in config.get("exclude_channels", [])):
+                        excluded_count += 1  # <--- ДОБАВЛЯЕМ СЧЕТЧИК
                         is_target = False
                         continue
                     
                     normalized_url = clean.replace('http://', 'https://')
                     if normalized_url in seen_urls:
+                        excluded_count += 1  # <--- ДОБАВЛЯЕМ СЧЕТЧИК (дубликаты)
                         is_target = False
                         continue
                     
@@ -251,6 +251,9 @@ for config in CONFIGS:
         f.write('\n'.join(result))
     
     unique_count = len([line for line in result if line.startswith('#EXTINF')])
+    # <--- ОБНОВЛЯЕМ ФИНАЛЬНЫЙ ОТЧЕТ
     print(f"  ✅ Готово! В файл {config['output_file']} добавлено уникальных каналов: {unique_count}")
+    if excluded_count > 0:
+        print(f"  🗑️ Отфильтровано (исключено или дубликатов): {excluded_count}")
 
 print("\n🎉 Все плейлисты успешно обновлены!")
