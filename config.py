@@ -22,14 +22,13 @@ CONFIGS = [
             ('Turon Media (VPN)', 'Discovery Science'), ('Turon Media (VPN)', 'ТНТ Music'),
             ('Turon Media (VPN)', 'Globus Music'), ('Turon Media (VPN)', '1HD'),
             ('Turon Media (VPN)', 'Fox News'), ('Квант-Телеком (VPN 🇷🇺)', 'Авто Плюс'),
-            ('Rutube (VPN)', 'CGTN Русский'), ('Rutube (VPN)', 'Плюс минус 16'),
+            ('Turon Media (VPN)', 'Первый канал HD'), ('Rutube (VPN)', 'CGTN Русский'), ('Rutube (VPN)', 'Плюс минус 16'),
             ('Rutube (VPN)', 'РБК'), ('Rutube (VPN)', 'Илли ТВ'), ('Rutube (VPN)', 'ТОЛК'),
             ('Квант-Телеком (VPN 🇷🇺)', 'Big Planet'), ('Квант-Телеком (VPN 🇷🇺)', 'Моя планета'),
             ('Квант-Телеком (VPN 🇷🇺)', 'TV XXI'), ('Квант-Телеком (VPN 🇷🇺)', 'КИНОСЕРИЯ'),
             ('Квант-Телеком (VPN 🇷🇺)', 'Индия'), ('Квант-Телеком (VPN 🇷🇺)', 'МУЛЬТ'), 
-            ('Квант-Телеком (VPN 🇷🇺)', 'Матч! Арена'), 
-            ('Квант-Телеком (VPN 🇷🇺)', 'MMA-TV.COM'), ('Квант-Телеком (VPN 🇷🇺)', 'KHL'), 
-            ('Квант-Телеком (VPN 🇷🇺)', 'Aiva')
+            ('Квант-Телеком (VPN 🇷🇺)', 'Матч! Арена'), ('Квант-Телеком (VPN 🇷🇺)', 'MMA-TV.COM'),
+            ('Квант-Телеком (VPN 🇷🇺)', 'KHL'), ('Квант-Телеком (VPN 🇷🇺)', 'Aiva')
         ],
         "exclude_url_keywords": [
             #"stream8.cinerama.uz",
