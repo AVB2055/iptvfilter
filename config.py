@@ -33,7 +33,7 @@ CONFIGS = [
         ],
         "exclude_url_keywords": [
             #"stream8.cinerama.uz",
-            "31.210.208.171"
+            "31.210.208.171",
             "185.46.16.239"
         ],
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
