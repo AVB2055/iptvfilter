@@ -18,7 +18,8 @@ CONFIGS = [
         },
         "exclude_channels": [
             ('Internet42 LLC', 'ТНТ4'), ('Internet42 LLC', 'Театр'), ('Internet42 LLC', 'Телекафе'),
-            ('Internet42 LLC', 'Cartoon Network'), ('Uplink (VPN)', 'Живи'),
+            ('Internet42 LLC', 'Cartoon Network'), ('Uplink (VPN)', 'Живи'), 
+            ('Uplink (VPN)', 'Новое телевидение'),
             ('Turon Media (VPN)', 'Discovery Science'), ('Turon Media (VPN)', 'ТНТ Music'),
             ('Turon Media (VPN)', 'Globus Music'), ('Turon Media (VPN)', '1HD'),
             ('Turon Media (VPN)', 'Fox News'), ('Квант-Телеком (VPN 🇷🇺)', 'Авто Плюс'),
@@ -32,6 +33,7 @@ CONFIGS = [
         ],
         "exclude_url_keywords": [
             #"stream8.cinerama.uz",
+            "31.210.208.171"
             "185.46.16.239"
         ],
         "exclude_keywords": ["Shop", "18+", "магазин", "test", "backup"]
